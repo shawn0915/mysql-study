@@ -24,3 +24,10 @@
 [官方手册](https://dev.mysql.com/doc/refman/5.6/en/)
 
 书单
+
+## BookMarks
+
+[err-msg](https://dev.mysql.com/doc/refman/5.6/en/error-messages-server.html)
+
+[glossary](https://dev.mysql.com/doc/refman/5.6/en/glossary.html)
+
