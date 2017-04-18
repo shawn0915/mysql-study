@@ -20,7 +20,21 @@
 ##  性能优化 Optimize
 
 - 硬件
-- 软件
+- 操作系统
+```bash
+虚拟内存
+
+将 /proc/sys/vm/swappiness 修改成很小的值，如0或1。除非虚拟内存完全满了，否则不要使用交换区。
+[root@localhost ~]# cat /proc/sys/vm/swappiness 
+30
+```
+```bash
+磁盘I/O
+禁止操作系统更新文件的atime属性
+
+echo -e "LABEL=/data  /data  xfs  noatime  1  2" >> /etc/fstab
+mount -oremount /data
+```
 - [优化MySQL性能](Optimize/Readme.md)
 
 ## 监控 Monitor
@@ -33,11 +47,6 @@
 ## 测试
 
 - 性能测试
-
-## 审计 Audit
-
-- SQL -- DDL
-- EVENT(audit.log)
 
 ## 安全 Security
 
