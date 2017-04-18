@@ -17,7 +17,7 @@
 - [存储引擎 Engine](Engines/Readme.md)
 
 
-##  优化 Optimize
+##  性能优化 Optimize
 
 - 硬件
 - 软件
@@ -27,7 +27,7 @@
 
 ## 变更 Change
 
-- online ddl change
+- online ddl change => 锁表
 
 
 ## 测试
@@ -47,17 +47,10 @@
   - 账户权限
 - [MySQL安全](Security/Readme.md)
 
-## 诊断
+## 诊断、排错 TroubleShooting
 
 
 ## 工具 Tools
 
-- 建模
-  - PowerDesigner
-- 访问
-  - Navicat
-  - DataGrip
-- 测试
-  - Sysbench
-- 工具集
-  - Percona
+[Tools](Tools/Readme.md)
+

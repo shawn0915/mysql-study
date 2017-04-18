@@ -4,6 +4,11 @@
 
 - index
 - data structure
+```mysql
+-- 优化表的数据类型
+use sakila;
+select * from country procedure analyse();
+```
 - innodb table
 - query execution plan
 - locking
