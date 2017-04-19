@@ -1,6 +1,7 @@
 # Index Constraint
 
-- [索引类型](IndexType.md)
+- [索引类型](IndexCategory.md)
+- [索引级别](IndexType.md)
 - 索引优化 => 参见性能优化
 
 ## ICP特性 

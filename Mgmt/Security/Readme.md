@@ -1,15 +1,14 @@
-# Security
+# MySQL Security
 
-## MySQL Security
+## SSL Protocol
 
-- SSL
-- USER-ACCOUNT
+## USER-ACCOUNT
 
-# Audit
-
+## Audit
 
 
-> REF
+
+## REF
 
 - MySQL Security
   - [faqs-security](https://dev.mysql.com/doc/refman/5.6/en/faqs-security.html)

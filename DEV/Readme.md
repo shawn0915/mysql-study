@@ -13,7 +13,7 @@
 
 - 业务架构
 - 业务逻辑、关联关系
-- 数据类型
+- [数据类型 Data Types](DataTypes/Readme.md)
 - [索引](IndexConstraint/Readme.md)
 
 ## SQL开发
@@ -25,11 +25,13 @@
 - [审核 Audit](Audit/Readme.md)
 
 
-## SQL编程 ROUTINE
+## Programming Inside MySQL
 
+- Stored Routines
+  - Stored Procedure
+  - Stored Function
+  
 - 视图 VIEW
-- 函数 FUNCTION
-- 存储过程 PROCEDURE
 - 触发器 TRIGGER
 ```
 触发顺序：
@@ -44,3 +46,6 @@ INSERT:
 	AFTER INSERT
 
 ```
+
+## 事务和锁 Transactions and Locking
+

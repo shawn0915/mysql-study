@@ -6,12 +6,13 @@
   - Navicat
   - DataGrip
 - 测试
-  - [Sysbench](Tools/sysbench.md)
+  - [Sysbench](sysbench.md)
   - orion
   - supersmack
-  - [mysql-tpcc](Tools/mysql-tpcc.md)
+  - [mysql-tpcc](mysql-tpcc.md)
 - 工具集
-  - [percona-tools for mysql](Tools/perconaTools.md)
+  - [mysql自带工具](mysql-utils.md)
+  - [percona-tools for mysql](perconaTools.md)
 - others
   - [通用的存储过程库](http://mysql-sr-lib.sourceforge.net/)
   - [移植SQL Server上的存储过程](https://github.com/TownSuite/tsql2mysql)

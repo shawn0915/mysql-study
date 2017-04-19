@@ -1,5 +1,6 @@
-# 存储引擎 Engine
+# 存储引擎 Storage Engines
 
+# Engines
 
 ## [Innodb](Innodb.md)
 
@@ -13,11 +14,15 @@
 - PERFORMANCE_SCHEMA
 - [NDB](https://dev.mysql.com/doc/refman/5.6/en/mysql-cluster.html)
 
-> SQL
+
 ```mysql
 SHOW ENGINES;
 ```
 
-> REF
-> 
-> [storage-engines](https://dev.mysql.com/doc/refman/5.6/en/storage-engines.html)
+# Partitioning
+
+[Partitioning](Partitioning/Readme.md)
+
+## REF
+
+- [storage-engines](https://dev.mysql.com/doc/refman/5.6/en/storage-engines.html)

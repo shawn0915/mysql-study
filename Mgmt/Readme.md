@@ -14,27 +14,13 @@
   - [Memory](Architecture/Memory.md)
   - [Disk](Architecture/Disk.md)
 - 网络拓扑
-- [存储引擎 Engine](Engines/Readme.md)
+
+## [存储引擎 Storage Engines](StorageEngine/Readme.md)
 
 
 ##  性能优化 Optimize
 
-- 硬件
-- 操作系统
-```bash
-虚拟内存
-
-将 /proc/sys/vm/swappiness 修改成很小的值，如0或1。除非虚拟内存完全满了，否则不要使用交换区。
-[root@localhost ~]# cat /proc/sys/vm/swappiness 
-30
-```
-```bash
-磁盘I/O
-禁止操作系统更新文件的atime属性
-
-echo -e "LABEL=/data  /data  xfs  noatime  1  2" >> /etc/fstab
-mount -oremount /data
-```
+- [服务器配置](Optimize/Server.md)
 - [优化MySQL性能](Optimize/Readme.md)
 
 ## 监控 Monitor
@@ -50,7 +36,8 @@ mount -oremount /data
 
 ## 安全 Security
 
-- 主机安全
+- Network Security
+- Operating System Security
   - 防火墙
   - 网络
   - 账户权限

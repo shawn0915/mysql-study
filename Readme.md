@@ -22,13 +22,16 @@
 
 ## Reference
 
-[官方手册](https://dev.mysql.com/doc/refman/5.6/en/)
+- [refman](https://dev.mysql.com/doc/refman/5.6/en/)
+- [Supported Platforms: MySQL Database](https://www.mysql.com/support/supportedplatforms/database.html)
+- [news](http://www.mysql.com/news-and-events/web-seminars/)
 
-书单
+## BookList
 
 ## BookMarks
 
-[err-msg](https://dev.mysql.com/doc/refman/5.6/en/error-messages-server.html)
+- [err-msg](https://dev.mysql.com/doc/refman/5.6/en/error-messages-server.html)
+- [glossary](https://dev.mysql.com/doc/refman/5.6/en/glossary.html)
+- [index-other](https://dev.mysql.com/doc/index-other.html)
 
-[glossary](https://dev.mysql.com/doc/refman/5.6/en/glossary.html)
 
