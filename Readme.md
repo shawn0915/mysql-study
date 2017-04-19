@@ -25,6 +25,7 @@
 - [refman](https://dev.mysql.com/doc/refman/5.6/en/)
 - [Supported Platforms: MySQL Database](https://www.mysql.com/support/supportedplatforms/database.html)
 - [news](http://www.mysql.com/news-and-events/web-seminars/)
+- [shop](https://shop.oracle.com/)
 
 ## BookList
 

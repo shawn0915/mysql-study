@@ -1,7 +1,20 @@
 # Memory
 
-> innodb_buffer_pool_size
+## Server/Shared
 
+- Query cache
+- Thread cache
+
+## Storage Engine/Shared
+
+- Log buffer
+- Buffer pool
+
+## Connection/Session
+
+- Sort buffer
+- Read buffer
+- Temporary table
 
 ## REF
 

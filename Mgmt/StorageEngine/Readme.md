@@ -19,6 +19,8 @@
 SHOW ENGINES;
 ```
 
+# Features
+
 # Partitioning
 
 [Partitioning](Partitioning/Readme.md)
