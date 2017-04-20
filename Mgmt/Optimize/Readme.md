@@ -40,8 +40,8 @@ SHOW PROFILE
 ```
 - TRACE
 ```mysql
-	分析优化器
-	select * from information_schema.OPTIMIZER_TRACE\G
+-- 分析优化器
+SELECT * FROM INFORMATION_SCHEMA.OPTIMIZER_TRACE ;
 ```
 
 
