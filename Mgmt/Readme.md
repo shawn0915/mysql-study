@@ -5,6 +5,8 @@
 - [Installation](Installation/Readme.md)
 - [Configuration](Configuration/Readme.md)
 - [Maintenance](Maintenance/Readme.md)
+  - Log
+  - Metadata
 
 ## 架构 Architecture
 
