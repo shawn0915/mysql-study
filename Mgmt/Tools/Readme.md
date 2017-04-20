@@ -5,14 +5,22 @@
 - 访问
   - Navicat
   - DataGrip
+  - HeidiSQL
+- Manage
+  - [MySQL Workbench](https://dev.mysql.com/doc/workbench/en/)
+    - SQL Development
+    - Database Design and Modeling
+    - Server Administration
 - 测试
   - [Sysbench](sysbench.md)
   - orion
   - supersmack
   - [mysql-tpcc](mysql-tpcc.md)
 - 工具集
-  - [mysql自带工具](mysql-utils.md)
+  - [mysql client](mysql-client.md)
   - [percona-tools for mysql](perconaTools.md)
+- 监控 Monitor
+  - [MySQL Enterprise Monitor](https://www.mysql.com/products/enterprise/monitor.html)
 - others
   - [通用的存储过程库](http://mysql-sr-lib.sourceforge.net/)
   - [移植SQL Server上的存储过程](https://github.com/TownSuite/tsql2mysql)
