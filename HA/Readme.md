@@ -20,6 +20,8 @@
 - [MHA](MHA/Readme.md)
 - MMM
 - MyCat
+- Percona-Cluster
+- 基于LVS/Keepalived/haproxy方案
 
 ## 容灾
 
