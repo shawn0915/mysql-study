@@ -39,11 +39,19 @@
 
 ## 安全 Security
 
-- Network Security
+- Networks Security
+  - Firewall
+  - authorized clients
+  - root access
+  - mysql_secure_installation
 - Operating System Security
   - 防火墙
   - 网络
   - 账户权限
+- File Systems
+  - MySQL programs
+  - Database directories and files
+  - Log, status, and configuration files
 - [MySQL安全](Security/Readme.md)
 
 ## 诊断、排错 TroubleShooting
