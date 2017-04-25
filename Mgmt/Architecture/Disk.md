@@ -1,5 +1,22 @@
 # Disk
 
+## Hardware
+
+- RAID卡
+    * 读写策略
+        + WB
+        + WT
+        + FORCE WB
+    * BBU
+- SSD
+- 网卡
+- PCI-E/NVMe
+
+## File System
+
+- ext4
+- xfs
+
 ## Usage
 
 - Data Directory

@@ -11,6 +11,8 @@
 - Detects any data change, loss, or replay
 - Incorporates algorithms that provide identity verification using the X509 standard
 
+[SSL Protocol](SSL/Readme.md)
+
 ## Audit
 
 

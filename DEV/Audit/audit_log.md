@@ -26,8 +26,8 @@ audit_log = FORCE_PLUS_PERMANENT;
 vim /etc/my.cnf
 
 # AUDIT PLUGIN
-plugin-load=server_audit=server_audit.so
-server_audit_file_path=/data/mysql/logs/audit_log
+plugin-load=server_audit.so
+server_audit_file_path=/data/log/mysql/audit_log
 server_audit_file_rotate_size=50000000
 server_audit_file_rotations=200
 server_audit_logging=ON

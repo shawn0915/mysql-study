@@ -19,6 +19,8 @@
 - 工具集
   - [mysql client](mysql-client.md)
   - [percona-tools for mysql](perconaTools.md)
+  - orzdba,iotop,ytop
+  - pstack
 - 监控 Monitor
   - [MySQL Enterprise Monitor](https://www.mysql.com/products/enterprise/monitor.html)
 - others
