@@ -1,0 +1,10 @@
+USE sakila;
+
+CREATE TABLE ex_event(systime TIMESTAMP);
+
+CREATE EVENT e_store_ts
+  ON SCHEDULE
+    EVERY 10 SECOND
+DO
+  INSERT INTO ex_event VALUES
+    (UNIX_TIMESTAMP());

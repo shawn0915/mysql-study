@@ -29,12 +29,18 @@
 
 ## Programming Inside MySQL
 
+### Programming
+
 - Stored Routines
   - Stored Procedure
+    - CALL statement
+    - [EXAMPLE](Programming/ex_procedure.sql)
   - Stored Function
-  
-- 视图 VIEW
-- 触发器 TRIGGER
+    - [EXAMPLE](Programming/ex_function.sql)
+- EVENT
+  - [EXAMPLE](Programming/ex_event.sql)
+- TRIGGER
+  - [EXAMPLE](Programming/ex_trigger.sql)
 ```
 触发顺序：
 
@@ -48,6 +54,22 @@ INSERT:
 	AFTER INSERT
 
 ```
+- 视图 VIEW
+- [EXAMINE](Programming/examine.sql)
+
+### Privileges
+
+- ```TRIGGER``` privilege
+  - CREATE TRIGGER
+  - DROP TRIGGER
+- ```EVENT``` privilege
+  - create, modify, or delete events.
+  - You must have the **SUPER** privilege to set the global ```event_scheduler``` variable.
+  - **event_scheduler** thread
+ 
+### REF
+
+- [condition-handling](https://dev.mysql.com/doc/refman/5.6/en/condition-handling.html)
 
 ## 事务和锁 Transactions and Locking
 
