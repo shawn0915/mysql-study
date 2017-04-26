@@ -14,6 +14,11 @@
   - Backup
     - MySQL Enterprise Backup
     - ```mysqldump```: Logical backups
+  - Replication
+    - mysqldbcopy
+    - mysqldbcompare
+    - mysqlrpladmin
+    - mysqlfailover
 - 测试
   - [Sysbench](sysbench.md)
   - orion

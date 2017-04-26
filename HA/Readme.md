@@ -6,15 +6,16 @@
 
 ## 复制 Replication
 
-- 复制机制
+- [复制机制](Replication/replication.md)
 - 同步复制
-- [半同步复制](Replication/semisync.md)
-- 异步复制
-- GTID
+- [Semisynchronous Replication 半同步复制](Replication/semisync.md)
+- Asynchronous Replication 异步复制
 
 > 关注点
 
-- binlog
+- [GTIDs](Replication/GTIDs.md)
+- [binlog](../Mgmt/Maintenance/Log/binlog.md)
+- [Replication Threads](Replication/ReplicationThreads.md)
 - 时延
 
 ## HA

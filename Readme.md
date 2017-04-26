@@ -35,4 +35,3 @@
 - [err-msg](https://dev.mysql.com/doc/refman/5.6/en/error-messages-server.html)
 - [glossary](https://dev.mysql.com/doc/refman/5.6/en/glossary.html)
 - [index-other](https://dev.mysql.com/doc/index-other.html)
-
