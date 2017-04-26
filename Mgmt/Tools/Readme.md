@@ -11,6 +11,9 @@
     - SQL Development
     - Database Design and Modeling
     - Server Administration
+  - Backup
+    - MySQL Enterprise Backup
+    - ```mysqldump```: Logical backups
 - 测试
   - [Sysbench](sysbench.md)
   - orion
