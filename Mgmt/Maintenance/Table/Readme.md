@@ -162,4 +162,6 @@ OPTIMIZE TABLE
 
 ## REF
 
-- [table-maintenance-sql](http://dev.mysql.com/doc/mysql/en/table-maintenance-sql.html)
+- [table-maintenance-sql](https://dev.mysql.com/doc/refman/5.6/en/table-maintenance-sql.html)
+
+
