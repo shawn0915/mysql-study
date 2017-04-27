@@ -1,5 +1,12 @@
 # 服务器配置
 
-- 操作系统
+## ENV
+
+- CPU
+- Memory
   - [SWAP](Server/swap.md)
-  - [DISK](Server/disk.md)
+- [DISK](Server/disk.md)
+- Network
+- 操作系统
+
+  

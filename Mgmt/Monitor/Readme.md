@@ -11,20 +11,35 @@
   - IOPS
   - SSD/HDD
   - 文件系统
-- NET
+- NETWORK
   - IN
   - OUT
 
+### 监控指标
 
-### 指标
 
-## 数据库指标
+## 数据库性能
 
 - 内存
 - 线程
 - 连接数
 - 访问量
 - 运行状态
+  - [mysql status](mysqlStatus.md)
+
+## benchmarking 基准
+
+- mysqlslap
+
+```bash
+mysqlslap --iterations=5000 --concurrency=50 --query=workload.sql
+--create=schema.sql --delimiter=";"
+```
+- sql-bench
+
+## Performance Schema
+
+[Performance Schema](../Optimize/PerformanceSchema.md)
 
 ## 报警
 
@@ -33,3 +48,7 @@
   - Mail
   - SMS
   - Weixin
+
+## REF
+
+- [performance-schema](https://dev.mysql.com/doc/refman/5.6/en/performance-schema-quick-start.html)
