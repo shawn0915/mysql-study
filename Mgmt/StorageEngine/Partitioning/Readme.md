@@ -15,9 +15,10 @@ BINARY, and VARBINARY.
 
 ## MySQL supports several types of partitioning
 
-- [RANGE](RANGE.md)
-- [LIST](LIST.md)
-- [KEY](KEY.md)
+- [RANGE](ex_range.sql)
+- [LIST](ex_list.sql)
+- [KEY](ex_key.sql)
+- [HASH](ex_hash.sql)
 - COLUMNS
   - RANGE COLUMNS
   - LIST COLUMNS
@@ -34,7 +35,12 @@ CREATE TABLE <table_name> (<table_column_options>)
 ENGINE=<engine_name>
 PARTITION BY <type> (<partition_expression>);
 ```
+
+```mysql
+SHOW TABLE STATUS LIKE 'tableName';
 ```
+
+```mysql
 PARTITION BY RANGE ...
 PARTITION BY RANGE COLUMNS ...
 PARTITION BY LIST ...
@@ -47,55 +53,12 @@ PARTITION BY LINEAR KEY ...
 
 ## Obtaining Partition Information
 
-```mysql
-SHOW CREATE TABLE ORDERS_HASH;
-
-SHOW TABLE STATUS LIKE 'orders_hash';
-```
-
-```mysql
-SELECT PARTITION_NAME, PARTITION_DESCRIPTION
-FROM INFORMATION_SCHEMA.PARTITIONS
-WHERE TABLE_NAME='orders_list'
-      AND TABLE_SCHEMA='sakila';
-```
-```
-
-+----------------+-----------------------+
-| PARTITION_NAME | PARTITION_DESCRIPTION |
-+----------------+-----------------------+
-| p0             | 1,3,4,17              |
-| p1             | 2,12,14               |
-| p2             | 6,8,20                |
-| p3             | 5,7,9,11,16           |
-| p4             | 10,13,15,18           |
-+----------------+-----------------------+
-
-```
-
-> EXPLAIN PARTITIONS
-```mysql
-EXPLAIN PARTITIONS SELECT * FROM orders_range\G
-```
-```mysql
-*************************** 1. row ***************************
-           id: 1
-  select_type: SIMPLE
-        table: orders_range
-   partitions: p0,p1,p2,p3,p4
-         type: ALL
-possible_keys: NULL
-          key: NULL
-      key_len: NULL
-          ref: NULL
-         rows: 5
-        Extra: NULL
-1 row in set (0.00 sec)
-```
+[Partition Information](ex_info.sql)
 
 
 ## Redefining the Partitioning Type
 
+将 ALTER TABLE 与 PARTITION BY 配合使用，将分区类型从 RANGE 更改为 HASH
 ```mysql
 ALTER TABLE orders_range
 PARTITION BY HASH(id) PARTITIONS 4;
@@ -109,13 +72,28 @@ non-partitioned table.
 - Move any existing rows in the non-partitioned table to the
 table partition or subpartition.
 
+将表分区或子分区与表交换。
+将分区或子分区中的所有现有行移至非分区表。
+将非分区表中的所有现有行移至表分区或子分区。
+要交换的表不能进行分区。
+它必须与分区表具有相同表结构。
+交换之前，非分区表中的行必须位于为分区或子分区定义的范围内。
+
+
 ```mysql
 ALTER TABLE orders_range
 EXCHANGE PARTITION p0
 WITH TABLE orders;
 ```
 
+交换分区的结果包括：
+交换分区不会在分区表或交换表上调用触发器。
+将重置交换表中的所有 AUTO_INCREMENT 列。
+
+
 ## Dropping Partitions
+
+[DROP PARTITION](ex_drop.sql)
 
 ## Removing Partitioning
 
@@ -132,9 +110,55 @@ WITH TABLE orders;
 - FULLTEXT indexes are not supported.
 - No global indexes: Each partition has its own indexes.
 > Subpartitioning is possible only:
-- When partitioning by RANGE and LIST
-- By LINEAR HASH or LINEAR KEY
+- When partitioning by ```RANGE``` and ```LIST```
+- By ```LINEAR HASH``` or ```LINEAR KEY```
 
+
+## Performance Effects of Altering a Partition
+
+根据分区的数量，与创建非分区表相比，创建分区表的速度稍微慢一些。
+分区操作处理速度比较： 
+
+对于大型事务表，```DROP PARTITION``` 比 DELETE 快得多。 
+```ADD PARTITION``` 在 RANGE 和 LIST 表上相当快。 
+
+对于在 KEY 或 HASH 表上运行的 ADD PARTITION，速度取决于已经存储的行数。 
+
+如果存在更多数据，需要花费更长时间来添加新分区。 
+对超大型表运行 ```COALESCE PARTITION```、```REORGANIZE PARTITION``` 和 ```PARTITION BY``` 时，
+它们的执行速度可能会很慢。 在此类操作过程中，硬件 I/O 的开销比分区引擎的开销高得多。 
+
+在 KEY/HASH 上运行的 ADD PARTITION 将所有行重新分布到新数量的分区，
+有效地执行完整表复制。COALESCE PARTITION 和 PARTITION BY 产生相同结果。 
+针对 LINEAR HASH/KEY 分区的 ADD/COALESCE PARTITION 仅拆分/合并受影响数量的分区。 
+REORGANIZE PARTITION 取决于要重组的分区的大小。
+
+
+## Partitioning: Storage Engine Features
+
+分区存储在与 InnoDB 表相同位置中的文件中。
+您可以提供 DATA DIRECTORY 选项来重定位分区。
+每个分区在以下数据目录中具有其自己的文件：
+**<table_name>#P#<partition_name>.ibd**
+
+如果禁用 innodb_file_per_table，分区将存储在共享表空间中。
+所有数据和索引都将进行分区。
+不能仅对数据或仅对索引进行分区。
+分区可用于其他存储引擎。不可用于 MERGE、FEDERATED、CSV
+
+每个 PARTITION 子句可以包括一个 [STORAGE] ENGINE 选项。该选项没有作用。
+每个分区使用的存储引擎与表作为一个整体而使用的存储引擎相同。 
+分区应用于表的所有数据和索引。请注意，不能仅对数据或仅对索引进行分区。 
+
+默认情况下，分区存储在数据目录中其自己的文件中。
+使用 DATA DIRECTORY 指定替代分区位置： 
+
+ 
+
+分区作为存储引擎来实现。
+分区表使用分区存储引擎和后备存储引擎（例如 InnoDB）的组合。
+其他存储引擎也可以使用分区；
+但是 MERGE、CSV 和 FEDERATED 存储引擎无法使用分区。
 
 ## REF
 

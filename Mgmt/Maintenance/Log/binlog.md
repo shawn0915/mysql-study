@@ -50,6 +50,8 @@ mysqlbinlog mysql-bin.000001 | more
 SHOW VARIABLES LIKE 'expire_logs_days';
 
 SET GLOBAL expire_logs_days = 7;
+
+-- 刪除3天前的binlog
 PURGE BINARY LOGS BEFORE now() - INTERVAL 3 day;
 -- base on name
 PURGE BINARY LOGS TO 'mysql-bin.000002';

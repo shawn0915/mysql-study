@@ -21,8 +21,12 @@ SET @@AUTOCOMMIT :=0;
 ```
 
 > Example of statements that cause an implicit commit:
-- TRUNCATE TABLE
-- LOAD DATA INFILE
+
+```mysql
+TRUNCATE TABLE tablename;
+LOAD DATA INFILE '/path/datafile';
+```
+
 
 
 

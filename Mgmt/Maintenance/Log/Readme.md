@@ -5,6 +5,7 @@
 - 查询日志 general log (--general_log)
 - 慢查询日志 slow query log (--slow_query_log, --long_query_time)
 - Enterprise Audit (--audit_log, --audit_log_file)
+- 操作日誌
 
 ## 错误日志 error log
 
@@ -27,18 +28,34 @@
 
 ## 慢查询日志 slow query log
 
-## Enterprise Audit
 
-> audit_log
-```mysql
-<AUDIT_RECORD TIMESTAMP="2012-10-12T09:35:15"
-  NAME="Connect" CONNECTION_ID="4" STATUS="0"
-  USER="root" PRIV_USER="root" OS_LOGIN="" PROXY_USER=""
-  HOST="localhost" IP="127.0.0.1" DB=""/>
-<AUDIT_RECORD TIMESTAMP="2012-10-12T09:38:33"
-  NAME="Query" CONNECTION_ID="4" STATUS="0"
-  SQLTEXT="INSERT INTO tbl VALUES(1, 2)"/>
+```bash
+mysqld --log-queries-not-using-indexes
 ```
+```mysql
+SHOW VARIABLES LIKE 'log_queries_not_using_indexes';
+```
+
+## MySQL Enterprise Audit
+
+[audit_log](audit_log.md)
+
+
+## 操作日誌
+
+```bash
+vim /etc/bashrc
+```
+```yaml
+export WHOAMI=`whoami`
+export DATE=`date +"%y%m%d_%H%M%S"`
+alias mysql="mysql --tee /data/logs/mysql_record/record_${DATE}_${WHOAMI}.log"
+```
+```bash
+source /etc/bashrc
+```
+
+
 
 # Tools
 

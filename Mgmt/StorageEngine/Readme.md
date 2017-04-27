@@ -1,12 +1,12 @@
 # 存储引擎 Storage Engines
 
-# Engines
+## Engines
 
-## [Innodb](Innodb.md)
+### [Innodb](Innodb.md)
 
-## [MyISM](MyISM.md)
+### [MyISM](MyISM.md)
 
-## OTHER
+### OTHER
 
 - MEMORY
   - stored in memory, represented on disk by a .frm file
@@ -40,9 +40,7 @@ SHOW ENGINES;
 SELECT @@default_storage_engine;
 ```
 
-# Features
-
-# Partitioning
+## Partitioning
 
 [Partitioning](Partitioning/Readme.md)
 

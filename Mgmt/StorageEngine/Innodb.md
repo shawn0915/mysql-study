@@ -3,7 +3,7 @@
 ## Feature Summary
 
 - Transaction-safe (ACID compliant)
-- MVCC (Multi-Versioning Concurrency Control)
+- [MVCC](MVCC.md) (Multi-Versioning Concurrency Control)
   - InnoDB row-level locking
   - Oracle-style consistent non-locking reads
 - Table data arranged to optimize primary key based queries
@@ -38,6 +38,10 @@ WHERE yourkey > something AND yourkey <= somethingelse;
 - innodb_buffer_pool_dump_at_shutdown
 
 ## Reduce Deadlocks
+
+
+
+## Innodb Status
 
 ```mysql
 SHOW ENGINE INNODB STATUS ;
