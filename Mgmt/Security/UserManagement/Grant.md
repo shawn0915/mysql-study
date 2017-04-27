@@ -1,5 +1,17 @@
 # Grant
 
+- Admin
+  - FILE
+  - PROCESS
+  - SUPER
+  - ALL
+
+- Table
+  - SELECT
+  - DELETE
+  - INSERT
+  - UPDATE
+
 ```mysql
 GRANT SELECT ON sakila.* TO
 'shawn'@'localhost' IDENTIFIED BY 'passwd';
@@ -7,13 +19,18 @@ GRANT SELECT ON sakila.* TO
 ```mysql
 SHOW GRANTS ;
 ```
+
 ```mysql
 FLUSH PRIVILEGES ;
 ```
+
+> mysqladmin
 ```bash
 mysqladmin flush-privileges
 mysqladmin reload
 ```
+
+> REVOKE
 ```mysql
 REVOKE DELETE, INSERT, UPDATE ON sakila.*
 FROM 'shawn'@'localhost';
@@ -44,6 +61,9 @@ SHOW GRANTS FOR 'shawn'@'localhost';
 ```
 
 
+## REF
+
+- [privileges-provided](https://dev.mysql.com/doc/refman/5.6/en/privileges-provided.html)
 
 
 
