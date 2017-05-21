@@ -16,9 +16,11 @@
 
 ## SQL开发
 
+- [SQL语言(Structured Query Language)](sql_base/Readme.md)
 - 语法标准
   - ANSI SQL-89
   - ANSI SQL-92
+- 范式  
 - 设计规范
 - [审核 Audit](Audit/Readme.md)
   - [audit log](../Mgmt/Maintenance/Log/audit_log.md)
