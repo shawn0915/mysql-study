@@ -2,6 +2,11 @@
 
 ## User Management
 
+- 初始化root密码
+  - MySQL 5.7安装后随机生成的root密码
+```bash
+grep 'temporary password' /var/log/mysqld.log
+``` 
 - [MySQL User Account Management](UserManagement/Readme.md)
 - [Grant](UserManagement/Grant.md)
 
@@ -11,7 +16,7 @@
 - Detects any data change, loss, or replay
 - Incorporates algorithms that provide identity verification using the X509 standard
 
-[SSL Protocol](SSL/Readme.md)
+> [SSL Protocol](SSL/Readme.md)
 
 ## Audit
 

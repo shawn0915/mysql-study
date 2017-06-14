@@ -42,6 +42,8 @@ SHOW MASTER STATUS ;
 mysqlbinlog mysql-bin.000001 mysql-bin.000002
 
 mysqlbinlog mysql-bin.000001 | more
+
+mysqlbinlog -vv --base64-output=DECODE-ROWS mysql-bin.000003
 ```
 
 > delete binary logs

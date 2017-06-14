@@ -76,4 +76,5 @@ INSERT:
 
 ## 事务和锁 Transactions and Locking
 
-[Transactions](Transactions/Readme.md)
+- [Transactions](Transactions/Readme.md)
+- [Locking](Locking/Readme.md)

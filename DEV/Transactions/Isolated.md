@@ -1,5 +1,4 @@
-# Isolated
-一致性
+# Isolated 一致性
 
 ## Transaction Isolation Problems
 

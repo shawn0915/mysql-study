@@ -20,6 +20,14 @@
 GRANT REPLICATION SLAVE ON *.* TO <user>@<slave-hostname>;
 ```
 
+从库的复制账号需要主库的replication slave权限
+主从库都需要replication client权限
+
+R client:
+1.	用来监控和管理复制的账号需要该权限
+2.	后续可以方便的交换主备库角色
+
+
 ## Slave Configuration
 
 ```mysql

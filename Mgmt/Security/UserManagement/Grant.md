@@ -13,6 +13,18 @@
   - UPDATE
 
 ```mysql
+-- dba
+create user 'dba'@'localhost' identified by 'password';
+grant all on *.* to 'dba'@'localhost';
+flush privileges;
+
+-- repl
+create user 'repl'@'%' identified by 'password';
+grant replication slave on *.* to 'repl'@'%';
+flush privileges;
+```
+
+```mysql
 GRANT SELECT ON sakila.* TO
 'shawn'@'localhost' IDENTIFIED BY 'passwd';
 ```

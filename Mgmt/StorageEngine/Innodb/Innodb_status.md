@@ -1,47 +1,4 @@
-# Innodb
-
-## Feature Summary
-
-- Transaction-safe (ACID compliant)
-- [MVCC](MVCC.md) (Multi-Versioning Concurrency Control)
-  - InnoDB row-level locking
-  - Oracle-style consistent non-locking reads
-- Table data arranged to optimize primary key based queries
-- Support for foreign-key referential integrity constraints
-- Maximum performance on large data volumes
-- Mixing of queries on tables with different storage engines
-- Fast auto-recovery after a crash
-- Buffer pool for caching data and indexes in memory
-
-## Converting Existing Tables to InnoDB
-
-```mysql
--- alter table
-ALTER TABLE city ENGINE = InnoDB;
--- clone a table
-INSERT INTO <innodb_table> SELECT * FROM <other_table>;
--- Insert large tables in smaller pieces for greater control.
-INSERT INTO newtable SELECT * FROM oldtable
-WHERE yourkey > something AND yourkey <= somethingelse;
-```
-
-## Tablespace
-
-> InnoDB creates a further tablespace in the database directory—an.ibd 
-  file—for each InnoDB table.
-
-## Buffer Pools
-
-- innodb_buffer_pool_instances
-- innodb_buffer_pool_size
-- innodb_buffer_pool_load_at_startup
-- innodb_buffer_pool_dump_at_shutdown
-
-## Reduce Deadlocks
-
-
-
-## Innodb Status
+# Innodb Status
 
 ```mysql
 SHOW ENGINE INNODB STATUS ;
@@ -148,10 +105,31 @@ END OF INNODB MONITOR OUTPUT
 
 ```
 
-## REF
 
-- [innodb-storage-engine](https://dev.mysql.com/doc/refman/5.6/en/innodb-storage-engine.html)
+```mysql
+(shawn@localhost) [(none)] 00:40:32> show global status like 'innodb%read%';
++---------------------------------------+---------+
+| Variable_name                         | Value   |
++---------------------------------------+---------+
+| Innodb_buffer_pool_read_ahead_rnd     | 0       |
+| Innodb_buffer_pool_read_ahead         | 0       |
+| Innodb_buffer_pool_read_ahead_evicted | 0       |
+| Innodb_buffer_pool_read_requests      | 1620    |
+| Innodb_buffer_pool_reads              | 191     |
+| Innodb_data_pending_reads             | 0       |
+| Innodb_data_read                      | 3198976 |
+| Innodb_data_reads                     | 209     |
+| Innodb_pages_read                     | 190     |
+| Innodb_rows_read                      | 759     |
++---------------------------------------+---------+
+10 rows in set (0.00 sec)
+
+```
 
 
+降低热点数据的磁盘操作
+一般不应小于99%
 
+缓存命中率=Innodb_buffer_pool_read_requests/(Innodb_buffer_pool_read_requests+ Innodb_buffer_pool_read_ahead+Innodb_buffer_pool_reads)
 
+1620/(1620+0+191)

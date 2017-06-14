@@ -5,13 +5,28 @@
 
 [sysbench](https://github.com/akopytov/sysbench)
 
+## pkg
+
+- 以**sysbench-0.5**为例
+
 ## Install
 
+- 正常安装
 ```bash
 yum install -y automake libtool*
+cd sysbench-0.5
+chmod +x autogen.sh
 ./autogen.sh
-./configure
+./configure --with-mysql --with-mysql-includes=/usr/local/mysql/include --with-mysql-libs=/usr/local/mysql/lib
 make
+make install
+
+```
+
+- 快速安装
+```bash
+curl -s https://packagecloud.io/install/repositories/akopytov/sysbench/script.rpm.sh | sudo bash
+sudo yum -y install sysbench
 ```
 
 ## Test
@@ -88,4 +103,19 @@ Ps.测试环境为虚拟机
 - clean up
 ```bash
 sysbench --test=fileio --file-num=16 --file-total-size=2G cleanup
+```
+
+## Q&A
+
+> 常见报错
+
+- 报错信息
+```bash
+sysbench: error while loading shared libraries: libmysqlclient.so.18: cannot open shared object file: No such file or directory
+
+```
+- 解决办法
+```bash
+ln -s /usr/local/mysql/lib/libmysqlclient.so.18 /usr/lib/
+
 ```

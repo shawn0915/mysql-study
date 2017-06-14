@@ -11,6 +11,16 @@
 - [Isolated](Isolated.md)
 - Durable
 
+## 本地事务
+
+```mysql
+COMMIT ;
+ROLLBACK ; 
+LOCK TABLES ;
+```
+
+## 分布式事务 XA
+
 
 ## Use locking to protect transactions
 

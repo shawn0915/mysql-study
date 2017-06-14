@@ -13,18 +13,22 @@
     - Server Administration
   - Backup
     - MySQL Enterprise Backup
-    - ```mysqldump```: Logical backups
+    - ```mysqldump``` : Logical backups
   - Replication
     - mysqldbcopy
     - mysqldbcompare
     - mysqlrpladmin
     - mysqlfailover
+  - Router/Proxy
+    - mysql router
+    - ProxySQL
 - 测试
-  - [Sysbench](sysbench.md)
+  - [Sysbench](Sysbench/sysbench.md)
   - orion
   - supersmack
   - [mysql-tpcc](mysql-tpcc.md)
 - 工具集
+  - mysql utilties
   - [mysql client](mysql-client.md)
   - [percona-tools for mysql](perconaTools.md)
   - orzdba,iotop,ytop
