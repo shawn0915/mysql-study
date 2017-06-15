@@ -20,18 +20,9 @@
 
 案例  => 规则 => 规范 => 工具 
 
-## Reference
+## [Reference](./Reference.md)
 
-- [refman](https://dev.mysql.com/doc/refman/5.6/en/)
-- [Supported Platforms: MySQL Database](https://www.mysql.com/support/supportedplatforms/database.html)
-- [news](http://www.mysql.com/news-and-events/web-seminars/)
-- [shop](https://shop.oracle.com/)
+
 
 ## BookList
 
-
-## REF
-
-- [err-msg](https://dev.mysql.com/doc/refman/5.6/en/error-messages-server.html)
-- [glossary](https://dev.mysql.com/doc/refman/5.6/en/glossary.html)
-- [index-other](https://dev.mysql.com/doc/index-other.html)

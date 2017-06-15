@@ -33,3 +33,15 @@ SELECT @@global.gtid_executed;
 1 row in set (0.00 sec)
 
 ```
+
+> my.cnf
+```bash
+vim /etc/my.cnf
+
+# GTID #
+log-bin=mysql-bin
+binlog_format=ROW
+log_slave_updates
+gtid-mode=ON
+enforce-gtid-consistency=ON
+```

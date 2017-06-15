@@ -20,21 +20,13 @@
 ```
 
 
-## 二进制日志 binary log
+## [二进制日志 binary log](binlog.md)
 
-[BINLOG](binlog.md)
 
 ## 查询日志 general log
 
-## 慢查询日志 slow query log
+## [慢查询日志 slow query log](slow_log.md)
 
-
-```bash
-mysqld --log-queries-not-using-indexes
-```
-```mysql
-SHOW VARIABLES LIKE 'log_queries_not_using_indexes';
-```
 
 ## MySQL Enterprise Audit
 
