@@ -6,17 +6,17 @@
 
 ## [ACID](ACID.md)
 
-- Atomic
-- Consistent
-- [Isolated](Isolated.md)
-- Durable
+- Atomic 原子性
+- Consistent 一致性
+- [Isolated](Isolated.md) 隔离性
+- Durable 持久性
 
 ## 本地事务
 
 ```mysql
-COMMIT ;
-ROLLBACK ; 
-LOCK TABLES ;
+COMMIT;
+ROLLBACK; 
+LOCK TABLES;
 ```
 
 ## 分布式事务 XA

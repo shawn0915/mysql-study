@@ -63,8 +63,11 @@ INSERT:
 ### Privileges
 
 - ```TRIGGER``` privilege
-  - CREATE TRIGGER
-  - DROP TRIGGER
+```mysql
+CREATE TRIGGER;
+DROP TRIGGER;
+```
+
 - ```EVENT``` privilege
   - create, modify, or delete events.
   - You must have the **SUPER** privilege to set the global ```event_scheduler``` variable.
