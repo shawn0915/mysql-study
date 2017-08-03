@@ -1,10 +1,12 @@
 # MySQL Knowledge System
 
-**MySQL知识体系梳理**
+**MySQL 知识体系梳理**
 
 > DBA首要职责：保障数据安全
 >
 > 有效的备份是最后一颗救命稻草
+
+**以 MySQL 5.6 为基准版本**
 
 ## Chapter
 体系分为如下几部分：
