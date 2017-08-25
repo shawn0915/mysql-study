@@ -48,6 +48,13 @@ mysqlslap --iterations=5000 --concurrency=50 --query=workload.sql
   - Mail
   - SMS
   - Weixin
+  
+## 报表
+
+- 实现方式
+ - MySQL+Python
+
+ 
 
 ## REF
 
