@@ -48,7 +48,8 @@ REVOKE DELETE, INSERT, UPDATE ON sakila.*
 FROM 'shawn'@'localhost';
 ```
 ```bash
-mysql --skip-grant-tables
+mysqld_safe --skip-grant-tables
+
 mysql --skip-networking
 mysql --socket
 ```
