@@ -24,7 +24,7 @@
 
 ## OCP
 
-[OCP](OCP/img/OCP_MySQL5.6DBAdmin_clr.gif)
+![OCP](OCP/img/OCP_MySQL5.6DBAdmin_clr.gif)
 
 ## [Reference](./Reference.md)
 
