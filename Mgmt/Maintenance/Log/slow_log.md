@@ -14,6 +14,8 @@ log-slow-queries=/data/mysql/data/slowlog.log
 # MySQL5.6
 slow-query-log=1
 slow-query-log-file=/data/mysql/data/slowlog.log
+# 慢查询时间阈值，默认10s
+long_query_time=1
 ```
 
 
@@ -37,6 +39,14 @@ mysql> show variables like '%slow%';
  | slow_query_log_file       | /data/mysql/data/iZ25ggavgm7Z-slow.log |
  +---------------------------+----------------------------------------+
  5 rows in set (0.00 sec)
+```
+
+```mysql
+show global variables like '%long%';
+show session variables like '%long%';
+
+set global long_query_time=1;
+set session long_query_time=1;
 ```
 
 
