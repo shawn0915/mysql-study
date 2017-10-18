@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?maxAge=3600)](LICENSE)
 [![MySQL](https://img.shields.io/badge/MySQL-v5.6-brightgreen.svg)](README.md)
+
 ![OCP](OCP/img/OCP_MySQL5.6DBAdmin_clr.gif)
 
 **MySQL 知识体系梳理**
