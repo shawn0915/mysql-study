@@ -1,7 +1,7 @@
 # MySQL Knowledge System
 
 [![License](svg/license-MIT-blue.svg)](LICENSE)
-[![MySQL](svg/MySQL-5.6-brightgreen.svg)]()
+[![MySQL](svg/MySQL-5.6-brightgreen.svg)](README.md)
 
 ![OCP](OCP/img/OCP_MySQL5.6DBAdmin_clr.gif)
 
