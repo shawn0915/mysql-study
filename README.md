@@ -1,7 +1,7 @@
 # MySQL Knowledge System
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?maxAge=3600)](LICENSE)
-[![MySQL](https://img.shields.io/badge/MySQL-v5.6-brightgreen.svg)](README.md)
+[![License](svg/license-MIT-blue.svg)](LICENSE)
+[![MySQL](svg/MySQL-5.6-brightgreen.svg)]()
 
 ![OCP](OCP/img/OCP_MySQL5.6DBAdmin_clr.gif)
 
