@@ -1,5 +1,8 @@
 # Mgmt
 
+> 重中之重是保障数据安全
+> 有效的备份是最后一颗救命稻草
+
 ## 部署 Deploy
 
 - [Installation](Installation/Readme.md)
