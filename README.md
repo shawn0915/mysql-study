@@ -2,15 +2,16 @@
 **MySQL 知识体系梳理**
 
 [![License](svg/license-MIT-blue.svg)](LICENSE)
-[![MySQL](svg/MySQL-5.6-brightgreen.svg)](README.md)
+[![MySQL56](svg/MySQL-v5.6-brightgreen.svg)](README.md)
+[![MySQL57](svg/MySQL-v5.7-brightgreen.svg)](README.md)
 
 ![OCP](OCP/img/OCP_MySQL5.6DBAdmin_clr.gif)
 
 
 ## Chapter
 
-- [DEV -- 产品DBA](DEV/Readme.md)
-- [Mgmt -- 运维DBA](Mgmt/Readme.md)
+- [Dev](DEV/Readme.md)
+- [Mgmt](Mgmt/Readme.md)
 - [HA](HA/Readme.md)
 - [RDS](RDS/Readme.md)
 - [Case](Case/Readme.md)
