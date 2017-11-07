@@ -1,7 +1,7 @@
 # Reference
 
 
-## 官方网站
+## official-website
 
 - [refman](https://dev.mysql.com/doc/refman/5.6/en/)
 - [Supported Platforms: MySQL Database](https://www.mysql.com/support/supportedplatforms/database.html)
@@ -14,16 +14,25 @@
 - [index-other](https://dev.mysql.com/doc/index-other.html)
 
 
-## 部落格
+## blog
 
 - [翟振兴（网易高级DBA）个人博客 ](http://zhaizhenxing.blog.51cto.com/)
 - [wiki](https://en.wikipedia.org/wiki/MySQL)
 - [hatemysql](http://hatemysql.com/)
 
+## OCP(MySQL)
 
-## 其他
+- [唠唠MySQL-OCP那点事](http://mp.weixin.qq.com/s/VvcnPfVmFLVbNzEvgvikeQ)
+- [MySQL OCP考试记](http://mp.weixin.qq.com/s/yur7OTc0ESxUYCg6HOKD3w)
 
-> Replication & HA
+
+## docker
+
+- [京东MySQL数据库Docker化最佳实践](http://mp.weixin.qq.com/s/ODTzyVm1rTl6PJ7gD2WN6A)
+- [MySQL 到底能不能放到 Docker 里跑？](http://mp.weixin.qq.com/s/LhCHEkSstmru4PnrfuoaVg)
+
+
+## Replication & HA
 
 - [MySQL复制原理和简单配置（5.6.20）](http://mp.weixin.qq.com/s/sZHXgPbAyb7rrdvowWh6zg)
 - [MySQL 主主复制 + LVS + Keepalived 实现 MySQL 高可用性](https://mp.weixin.qq.com/s/HG_-Wj1T-btLSPEbe0LchA)
@@ -41,7 +50,7 @@
 - []()
 
 
-> Optimize
+## Optimize
 
 - [一张思维导图学会如何构建高性能MySQL系统！](http://mp.weixin.qq.com/s/OBIOAjHo5k8ioNz-F2LoQA)
 - [MySQL大表优化方案](https://segmentfault.com/a/1190000006158186)
@@ -56,14 +65,9 @@
 - []()
 
 
-> Docker
-
-- [京东MySQL数据库Docker化最佳实践](http://mp.weixin.qq.com/s/ODTzyVm1rTl6PJ7gD2WN6A)
-- [MySQL 到底能不能放到 Docker 里跑？](http://mp.weixin.qq.com/s/LhCHEkSstmru4PnrfuoaVg)
-- []()
 
 
-> Other
+## weixin
 
 - [MySQL 开发实践 8 问](http://mp.weixin.qq.com/s/gRNDkWgF8F5ZppC3tl_fyw)
 - [MySQL去O的实施技术](http://mp.weixin.qq.com/s/pwHSGoF6rgnOtLCCREhG6A)
@@ -79,8 +83,6 @@
 - [存储总量达20T的MySQL实例，如何完成迁移？](http://mp.weixin.qq.com/s/SUjuQC-bBu_eD_PQWvQ7Vw)
 - [中间件mysql-proxy的一些细节](http://mp.weixin.qq.com/s/p7lVZYSuzMwexulvQiN4yw)
 - [京东 MySQL 监控之 Zabbix 优化、自动化](http://mp.weixin.qq.com/s/od3jVTbkIkDOAmZK0Y90bA)
-- [What is CDB for My SQL?](https://www.qcloud.com/document/product/236/5147)
-- [MySQL 资源大全](http://blog.jobbole.com/100516/)
 - [MySQL 最佳实践： RDS 只读实例延迟分析](http://mp.weixin.qq.com/s/Pt_5UMQ4_f0F4C-pAqUjjA)
 - [MySQL 性能监控 4 大指标](https://mp.weixin.qq.com/s/Vi7O7Mr0HNSmN3OFQbigZg)
 - [学会用各种姿势备份MySQL数据库](http://mp.weixin.qq.com/s/N-GTa5oBsF8sBc_epfz5OA)
@@ -89,17 +91,23 @@
 
 ## MySQL_5.7
 
-- [MySQL 5.7 REF](../MySQL_5.7/Reference.md)
+### weixin
+
+- [从一个调试结果来看MySQL 5.7的无损复制](http://mp.weixin.qq.com/s/qQUtOeAazK8QWUluP3880g)
+- [网易这样用sys schema优雅提升MySQL易用性](http://mp.weixin.qq.com/s/3QA3Y-zmtX2AJxKg-SyEEA)
+- [分分钟搭建MySQL Group Replication测试环境](https://mp.weixin.qq.com/s/1pOry8UyRrxi9kO2opAvNg)
+- [【MySQL 5.7.17】从主从复制到Group Replication](http://mp.weixin.qq.com/s/mkZ8zTSlO0-G4nuo7zLG4g)
+- [MySQL Profile在5.7的简单测试](http://mp.weixin.qq.com/s/m2D7rgYR2n4ujH2MZ0Fhwg)
+- [迄今最安全的MySQL？细数5.7那些惊艳与鸡肋的新特性（中）](http://mp.weixin.qq.com/s/QITMHC4Vidh2-uQI3uS4GA)
+- [MySQL 5.7 双主复制+keepalived，常规业务一般够用了](http://mp.weixin.qq.com/s/sryCTX-LOwYj2y2aHYytjg)
 
 
-## MySQL_8
-
-
-## OCP(MySQL)
-
-- [唠唠MySQL-OCP那点事](http://mp.weixin.qq.com/s/VvcnPfVmFLVbNzEvgvikeQ)
-- [MySQL OCP考试记](http://mp.weixin.qq.com/s/yur7OTc0ESxUYCg6HOKD3w)
-- []()
+## MySQL_8.0
 
 
 
+
+## other
+
+- [What is CDB for My SQL?](https://www.qcloud.com/document/product/236/5147)
+- [MySQL 资源大全](http://blog.jobbole.com/100516/)
