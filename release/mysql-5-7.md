@@ -1,19 +1,26 @@
 # MySQL 5.7
 
-5.7.9 GA
+5.7.9, GA, 2015
 
 ## New Feature
 
+- 支持多个触发器, 5.7.2
+- sys schema, 5.7.7
+- [Optimizer Hints, 5.7.7](https://dev.mysql.com/doc/refman/5.7/en/optimizer-hints.html)
+- [JSON, 5.7.8](../DEV/DataTypes/DataTypes.md#json)
+- [X Plugin, 5.7.12](http://dev.mysql.com/doc/refman/5.7/en/x-plugin.html)
+
+
+todo
+--
+
 - Server层优化
 - InnoDB层优化
-- [optimizer-hints](https://dev.mysql.com/doc/refman/5.7/en/optimizer-hints.html)
 - EXPLAIN CONNECTION
-- [JSON](https://dev.mysql.com/doc/refman/5.7/en/json.html)
 - 虚拟列
-- 新增sys schema
 - performance schema增强
-- 支持多个触发器
 - 在线修改VARCHAR长度
-- 并发复制等
+- 并发复制
+
 
 

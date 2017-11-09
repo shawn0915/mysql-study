@@ -3,6 +3,7 @@
 
 ## official-website
 
+- [mysql](https://www.mysql.com/)
 - [refman](https://dev.mysql.com/doc/refman/5.6/en/)
 - [Supported Platforms: MySQL Database](https://www.mysql.com/support/supportedplatforms/database.html)
 - [news](http://www.mysql.com/news-and-events/web-seminars/)
@@ -13,6 +14,9 @@
 - [glossary](https://dev.mysql.com/doc/refman/5.6/en/glossary.html)
 - [index-other](https://dev.mysql.com/doc/index-other.html)
 
+## wiki
+
+- [MySQL_AB](https://en.wikipedia.org/wiki/MySQL_AB)
 
 ## blog
 

@@ -11,7 +11,7 @@
 
 - 业务架构
 - 业务逻辑、关联关系
-- [数据类型 Data Types](DataTypes/Readme.md)
+- [数据类型 Data Types](DataTypes/DataTypes.md)
 - [索引](IndexConstraint/Readme.md)
 
 ## SQL开发
