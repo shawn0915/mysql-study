@@ -1,9 +1,9 @@
-# Mgmt
+# Management
 
 > 重中之重是保障数据安全
 > 有效的备份是最后一颗救命稻草
 
-## 部署 Deploy
+## Deploy
 
 - [Installation](Installation/Readme.md)
 - [Configuration](Configuration/Readme.md)
@@ -11,7 +11,7 @@
   - Log
   - Metadata
 
-## 架构 Architecture
+## Architecture
 
 - 硬件架构
   - x86_64
@@ -24,12 +24,17 @@
 ## [存储引擎 Storage Engines](StorageEngine/Readme.md)
 
 
-##  性能优化 Optimize
+## Optimize
 
 - [服务器配置](Optimize/Server.md)
 - [优化MySQL性能](Optimize/Readme.md)
 
-## 监控 Monitor
+## Monitor
+
+- Server
+- Instance
+- Plugin
+- Log
 
 ## 变更 Change
 
