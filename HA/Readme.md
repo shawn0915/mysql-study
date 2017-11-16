@@ -1,4 +1,4 @@
-# HA
+# High Available (HA)
 
 ## 备份与恢复 Backup and Recovery
 

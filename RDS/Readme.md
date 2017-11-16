@@ -1,6 +1,6 @@
-# RDS
+# Relational Database Service (RDS)
 
-> 特点
+## Feature
 
-- 敏捷
-- 弹性
+- 敏捷 Agility
+- 弹性 Elastic

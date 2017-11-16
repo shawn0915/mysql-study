@@ -10,14 +10,14 @@
 
 ## Chapter
 
-- [Dev](DEV/Readme.md)
-- [Mgmt](Mgmt/Readme.md)
-- [HA](HA/Readme.md)
+- [Development](DEV/Readme.md)
+- [Management](Mgmt/Readme.md)
+- [High Available](HA/Readme.md)
 - [RDS](RDS/Readme.md)
 - [Case](Case/Readme.md)
 - Branch
-  - [Mariadb](Branch/Mariadb.md)
-  - [Percona](Branch/Percona.md)
+  - [MariaDB](branch/MariaDB.md)
+  - [Percona Server](branch/PerconaServer.md)
 - Tools
   - [Sysbench](tools/sysbench/Sysbench.md)
   - Percona Toolkit
