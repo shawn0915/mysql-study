@@ -10,7 +10,7 @@
 
 ## Chapter
 
-- [Development](DEV/Readme.md)
+- [Development](dev/Development.md)
 - [Management](Mgmt/Readme.md)
 - [High Available](HA/Readme.md)
 - [RDS](RDS/Readme.md)
@@ -50,3 +50,7 @@ case => rule => standard => tools
 
 ## BookList
 
+- High Performance MySQL(高性能MySQL)(3rd v5.5)/O'REILLY
+- Effective MySQL: Optimizing SQL Statements/Ronald Bradford
+- MySQL技术内幕：InnoDB存储引擎(第二版)/姜承尧
+- MySQL管理之道/贺春旸
