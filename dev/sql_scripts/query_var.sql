@@ -1,8 +1,9 @@
 /*
+查看一组变量的值，上一次查询的值，以及它们之间的差值
+
 mysql56
 mysql57 disable
- */
--- 查看一组变量的值，上一次查询的值，以及它们之间的差值
+ */ 
 
 SELECT STRAIGHT_JOIN
   lower(gs0.variable_name) AS variable_name,

@@ -1,8 +1,10 @@
 /*
+schema base info
+
 mysql56
+mysql57 disable
  */
 
--- schema base info
 SELECT
   TABLE_SCHEMA,
   `ENGINE`,

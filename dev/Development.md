@@ -31,7 +31,7 @@
 
 ## Transactions and Locking
 
-- [Transactions](Transactions/Readme.md)
+- [Transactions](transactions/Transaction.md)
 - [Locking](Locking/Readme.md)
 
 ## Programming Inside MySQL
@@ -80,7 +80,7 @@ DROP TRIGGER;
 
 ## 事务和锁 Transactions and Locking
 
-- [Transactions](Transactions/Readme.md)
+- [Transactions](transactions/Transaction.md)
 - [Locking](Locking/Readme.md)
 
  

@@ -4,12 +4,38 @@
 - Execute if all steps are good.
 - Cancel if steps have error or are incomplete.
 
-## [ACID](ACID.md)
+## ACID
 
-- Atomic 原子性
-- Consistent 一致性
-- [Isolated](Isolated.md) 隔离性
-- Durable 持久性
+### Atomic
+原子性，所有语句作为一个单元全部成功执行或全部取消
+### Consistent
+一致性
+### [Isolated](Isolated.md)
+隔离性
+### Durable
+持久性
+
+> Transaction SQL Control Statements
+
+- START TRANSACTION (BEGIN)
+- SAVEPOINT
+- COMMIT
+- ROLLBACK
+- ROLLBACK TO SAVEPOINT
+- RELEASE SAVEPOINT
+- SET AUTOCOMMIT
+
+```mysql
+SELECT @@AUTOCOMMIT;
+SET @@AUTOCOMMIT :=0;
+```
+
+> Example of statements that cause an implicit commit:
+
+```mysql
+TRUNCATE TABLE tablename;
+LOAD DATA INFILE '/path/datafile';
+```
 
 ## 本地事务
 
@@ -34,4 +60,6 @@ LOCK TABLES;
   lock and unlock tables. Consequently, the InnoDB storage engine is the default in MySQL 5.6.
 
 
+## Reference
 
+- [refman56-implicit-commit](https://dev.mysql.com/doc/refman/5.6/en/implicit-commit.html)
