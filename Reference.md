@@ -14,9 +14,6 @@
 - [glossary](https://dev.mysql.com/doc/refman/5.6/en/glossary.html)
 - [index-other](https://dev.mysql.com/doc/index-other.html)
 
-## wiki
-
-- [MySQL_AB](https://en.wikipedia.org/wiki/MySQL_AB)
 
 ## blog
 

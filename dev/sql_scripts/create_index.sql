@@ -1,3 +1,6 @@
+/*
+mysql56
+ */
 SELECT CONCAT('ALTER TABLE `', TABLE_NAME, '` ', 'ADD ',
               IF(NON_UNIQUE = 1,
                  CASE UPPER(INDEX_TYPE)
@@ -24,6 +27,6 @@ SELECT CONCAT('ALTER TABLE `', TABLE_NAME, '` ', 'ADD ',
               ), '(', GROUP_CONCAT(DISTINCT CONCAT('`', COLUMN_NAME, '`') ORDER BY SEQ_IN_INDEX ASC SEPARATOR ', '),
               ');') AS 'Show_Add_Indexes'
 FROM information_schema.STATISTICS
-WHERE TABLE_SCHEMA = 'sakila'
+-- WHERE TABLE_SCHEMA = 'sakila'
 GROUP BY TABLE_NAME, INDEX_NAME
 ORDER BY TABLE_NAME ASC, INDEX_NAME ASC;

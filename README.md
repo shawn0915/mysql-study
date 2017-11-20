@@ -1,20 +1,21 @@
 # MySQL Knowledge System
-**MySQL 知识体系梳理**
+**MySQL知识体系**
 
 [![License](svg/license-MIT-blue.svg)](LICENSE)
 [![MySQL56](svg/MySQL-v5.6-brightgreen.svg)](README.md)
 [![MySQL57](svg/MySQL-v5.7-brightgreen.svg)](README.md)
 
-![OCP](OCP/img/OCP_MySQL5.6DBAdmin_clr.gif)
+![OCP](ocp/img/OCP_MySQL5.6DBAdmin_clr.gif)
 
 
-## Chapter
+## Content
 
 - [Development](dev/Development.md)
-- [Management](Mgmt/Readme.md)
-- [High Available](HA/Readme.md)
-- [RDS](RDS/Readme.md)
-- [Case](Case/Readme.md)
+- [Management](mgmt/Management.md)
+- [High Available](highAvailable/HighAvailable.md)
+- [RDS](rds/RDS.md)
+- [Docker](https://github.com/shawn0915/docker-study/blob/master/docker/dockerBuild.md#oracle_linux_mysql)
+- [Case](case/Case.md)
 - Branch
   - [MariaDB](branch/MariaDB.md)
   - [Percona Server](branch/PerconaServer.md)
@@ -38,7 +39,7 @@
 
 ## History
 
-- MySQL AB (1995-2008)
+- [MySQL AB (1995-2008)](https://en.wikipedia.org/wiki/MySQL_AB)
 - SUN (2008-2010)
 - Oracle (2010-now)
 

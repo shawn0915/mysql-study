@@ -4,7 +4,8 @@
 - 引擎
   - 必须使用InnoDB存储引擎
 - 字符集
-  - 字符集utf8
+  - 字符集utf8 -- mysql5.6
+  - 字符集utf8mb4 -- mysql5.7
   - emoji表情字符集选用utf8mb4
 - 主键
   - 需要设置bigint无符号(unsigned)自增主键

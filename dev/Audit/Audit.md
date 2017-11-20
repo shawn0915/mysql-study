@@ -3,9 +3,7 @@
 - 审核对象
   - SQL -- DDL
   - EVENT(audit.log)
-  
-- [审核规则](rule.md)
-  
+- [审核规则](Rules.md)
 - SQL审核注意事项
   - 数据库的版本、特性和差异
   - SQL的执行计划

@@ -14,7 +14,7 @@
 > 关注点
 
 - [GTIDs](Replication/GTIDs.md)
-- [binlog](../Mgmt/Maintenance/Log/binlog.md)
+- [binlog](../mgmt/Maintenance/Log/binlog.md)
 - [Replication Threads](Replication/ReplicationThreads.md)
 - 时延
 

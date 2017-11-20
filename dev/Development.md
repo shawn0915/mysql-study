@@ -1,29 +1,33 @@
 # Development
+开发阶段
 
-## 规划
+
+## Plan and Design
+规划
 
 - 容量规划
   - 业务增速？极限在哪？
 - 分库分表
   - “合久必分，分久必合”
 
-## 建模
+## Model
+建模
 
 - 业务架构
 - 业务逻辑、关联关系
-- [数据类型 Data Types](DataTypes/DataTypes.md)
-- [索引](IndexConstraint/Readme.md)
+- [数据类型 Data Types](model/DataTypes.md)
+- [索引约束](model/IndexConstraint.md)
 
 ## SQL开发
 
-- [SQL语言(Structured Query Language)](sql_base/Readme.md)
+- [SQL语言(Structured Query Language)](sql_scripts/sql_demo.sql)
 - 语法标准
   - ANSI SQL-89
   - ANSI SQL-92
 - 范式  
 - 设计规范
-- [审核 Audit](Audit/Readme.md)
-  - [audit log](../Mgmt/Maintenance/Log/audit_log.md)
+- [审核 Audit](Audit/Audit.md)
+  - [audit log](../mgmt/Maintenance/Log/audit_log.md)
 
 ## Transactions and Locking
 
@@ -37,13 +41,13 @@
 - Stored Routines
   - Stored Procedure
     - CALL statement
-    - [EXAMPLE](Programming/ex_procedure.sql)
+    - [EXAMPLE](programming/ex_procedure.sql)
   - Stored Function
-    - [EXAMPLE](Programming/ex_function.sql)
+    - [EXAMPLE](programming/ex_function.sql)
 - EVENT
-  - [EXAMPLE](Programming/ex_event.sql)
+  - [EXAMPLE](programming/ex_event.sql)
 - TRIGGER
-  - [EXAMPLE](Programming/ex_trigger.sql)
+  - [EXAMPLE](programming/ex_trigger.sql)
 ```
 触发顺序：
 
@@ -57,8 +61,8 @@ INSERT:
 	AFTER INSERT
 
 ```
-- 视图 VIEW
-- [EXAMINE](Programming/examine.sql)
+- VIEW
+- [EXAMINE](programming/examine.sql)
 
 ### Privileges
 
@@ -72,12 +76,16 @@ DROP TRIGGER;
   - create, modify, or delete events.
   - You must have the **SUPER** privilege to set the global ```event_scheduler``` variable.
   - **event_scheduler** thread
- 
-### REF
 
-- [condition-handling](https://dev.mysql.com/doc/refman/5.6/en/condition-handling.html)
 
 ## 事务和锁 Transactions and Locking
 
 - [Transactions](Transactions/Readme.md)
 - [Locking](Locking/Readme.md)
+
+ 
+## REF
+
+- [condition-handling](https://dev.mysql.com/doc/refman/5.6/en/condition-handling.html)
+- [example database](https://dev.mysql.com/doc/index-other.html)
+- [test-db](https://launchpad.net/test-db/)

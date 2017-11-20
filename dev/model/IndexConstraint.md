@@ -1,3 +1,41 @@
+# Index Constraint
+
+
+- [索引类型](#indextype)
+- [索引级别](#indexlevel)
+- 索引优化 => 参见性能优化
+
+## IndexType
+索引类型
+
+### B-Tree Index
+
+- BALANCE 平衡索引
+- 最左匹配原则
+- 复合索引
+
+### 前缀索引
+
+### FULLTEXT
+全文本索引
+
+- MyISAM
+- Innodb 5.6+
+
+### HASH索引
+
+- Memory 引擎
+
+### PRIMARY KEY
+
+### UNIQUE
+
+### R-Tree 空间索引
+
+
+## IndexLevel
+索引级别
+
 type显示的是访问类型，是较为重要的一个指标，结果值从好到坏依次是：
 
 ```
@@ -33,3 +71,9 @@ Extra
 如果是where used，就是使用上了where限制。
 
 如果是impossible where 表示用不着where，一般就是没查出来啥。
+
+
+## IndexOptimization
+
+### ICP特性 
+[Index Condition Pushdown](https://dev.mysql.com/doc/refman/5.6/en/index-condition-pushdown-optimization.html)

@@ -1,3 +1,7 @@
+/**
+Structured Query Language
+ */
+
 -- system time
 SELECT now();
 SELECT now() FROM dual;

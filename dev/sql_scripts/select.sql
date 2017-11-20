@@ -1,7 +1,11 @@
+/*
+mysql56
+ */
+
 -- schema base info
 SELECT
   TABLE_SCHEMA,
-  'ENGINE',
+  `ENGINE`,
   COUNT(*),
   SUM(data_length) total_size
 FROM INFORMATION_SCHEMA.TABLES
