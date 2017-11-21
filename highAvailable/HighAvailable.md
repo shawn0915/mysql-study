@@ -1,22 +1,15 @@
 # High Available (HA)
 
-## 备份与恢复 Backup and Recovery
 
+## Content
 
+- [Backup](backup/Backup.md)
+- [Recovery](recovery/Recovery.md)
+- [Replication](replication/Replication.md)
+- High Available
+- Middleware
+- Reference
 
-## 复制 Replication
-
-- [复制机制](Replication/replication.md)
-- 同步复制
-- [Semisynchronous Replication 半同步复制](Replication/semisync.md)
-- Asynchronous Replication 异步复制
-
-> 关注点
-
-- [GTIDs](Replication/GTIDs.md)
-- [binlog](../mgmt/Maintenance/Log/binlog.md)
-- [Replication Threads](Replication/ReplicationThreads.md)
-- 时延
 
 ## HA
 
@@ -36,8 +29,8 @@
 
 ## 容灾
 
-- [备份 Backup](Backup/Readme.md)
-- [恢复 Recovery](Recovery/Readme.md)
+
+- [恢复 Recovery](recovery/Recovery.md)
 - 异地多中心
 
 
@@ -46,7 +39,7 @@
 - RPO
 - RTO
 
-## REF
+## Reference
 
 - [MySQL HA/Scalability Guide](https://dev.mysql.com/doc/mysql-ha-scalability/en/)
 

@@ -64,7 +64,7 @@
 - [解开发者之痛：中国移动MySQL数据库优化最佳实践(有彩蛋)](http://mp.weixin.qq.com/s/PM5BvRbq7YI1Qd9olCA7Rg)
 - [单表60亿记录等大数据场景的MySQL优化和运维之道](http://mp.weixin.qq.com/s/Cet5WaLJKe9IC3PM1WFlhw)
 - [MySQL架构优化实战系列2：主从复制同步与查询性能调优](http://mp.weixin.qq.com/s/gjF7xGWjkumxA89YqahVdA)
-- []()
+- [GitHub 的 MySQL 基础架构自动化测试](https://mp.weixin.qq.com/s/AYiChyg7AaFzMTeL1eQQuw)
 
 
 

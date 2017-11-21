@@ -1,10 +1,16 @@
 # Replication
 
+
+- Replication
+- 同步复制
+- [Semisynchronous Replication 半同步复制](replication/semisync.md)
+- Asynchronous Replication 异步复制
+- [GTIDs](replication/GTIDs.md)
 - binary log
-- replication threads and logs
+- [replication threads and logs](replication/ReplicationThreads.md)
 - replication environment
 - replication topologies
-
+- 时延
 
 ## Replication Use Cases
 

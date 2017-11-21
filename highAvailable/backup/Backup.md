@@ -1,4 +1,6 @@
-# Backup
+# Backup and Recovery
+备份与恢复
+
 
 - Hot 热备份
   - mysqlhotcopy
@@ -72,7 +74,7 @@ mysqlbackup
 
 
 
-## REF
+## Reference
 
 - [load-data-local](https://dev.mysql.com/doc/refman/5.6/en/load-data-local.html)
 - [mysql-enterprise-backup](https://dev.mysql.com/doc/mysql-enterprise-backup/4.1/en/intro.html)

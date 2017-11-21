@@ -14,6 +14,7 @@
   - Backup
     - MySQL Enterprise Backup
     - `mysqldump` : Logical backups
+    - Percona XtraBackup
   - Replication
     - mysqldbcopy
     - mysqldbcompare
