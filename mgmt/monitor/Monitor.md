@@ -1,4 +1,12 @@
 # Monitor
+监控
+
+## Monitor Level
+
+- Server
+- Instance
+- Plugin
+- Log
 
 ## 主机性能
 
@@ -39,7 +47,7 @@ mysqlslap --iterations=5000 --concurrency=50 --query=workload.sql
 
 ## Performance Schema
 
-[Performance Schema](../Optimize/PerformanceSchema.md)
+[Performance Schema](../optimize/PerformanceSchema.md)
 
 ## 报警
 

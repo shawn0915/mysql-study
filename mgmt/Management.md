@@ -6,10 +6,14 @@
 
 - [Architecture](#architecture)
 - [Deploy](#deploy)
-- [Optimize](#optimize)
-- [Monitor](#monitor)
+- [Testing](#testing)
+- [Optimize](optimize/Optimize.md)
+- [Monitor](monitor/Monitor.md)
 - [Storage Engine](storageEngine/StorageEngines.md)
 - [Partitioning](partitioning/Partitioning.md)
+- [TroubleShooting](troubleShooting/TroubleShooting.md)
+- [Security](security/Security.md)
+- [Change](change/Change.md)
 - [Tools](tools/Tools.md)
 
 
@@ -33,47 +37,8 @@
   - Log
   - Metadata
 
-
-## Optimize
-
-- [服务器配置](Optimize/Server.md)
-- [优化MySQL性能](Optimize/Readme.md)
-
-## Monitor
-
-- Server
-- Instance
-- Plugin
-- Log
-
-## 变更 Change
-
-- online ddl change => 锁表
-
-
-## 测试 Testing
+## Testing
+测试
 
 - 基准测试
 - 性能测试
-
-## 安全 Security
-
-- Networks Security
-  - Firewall
-  - authorized clients
-  - root access
-  - mysql_secure_installation
-- Operating System Security
-  - 防火墙
-  - 网络
-  - 账户权限
-- File Systems
-  - MySQL programs
-  - Database directories and files
-  - Log, status, and configuration files
-- [MySQL安全](Security/Readme.md)
-
-## 诊断、排错 TroubleShooting
-
-
-
