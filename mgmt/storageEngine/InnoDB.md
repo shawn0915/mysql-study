@@ -1,9 +1,19 @@
 # Innodb
 
-## Feature Summary
+- [History](#history)
+- [Feature](#feature)
+- [Reference](#reference)
+
+
+## History
+
+- Innobase Oy
+- Oracle (2005)
+
+## Feature
 
 - Transaction-safe (ACID compliant)
-- [MVCC](../MVCC.md) (Multi-Versioning Concurrency Control)
+- [MVCC](#mvcc) (Multi-Versioning Concurrency Control)
   - InnoDB row-level locking
   - Oracle-style consistent non-locking reads
 - Table data arranged to optimize primary key based queries
@@ -32,7 +42,7 @@ WHERE yourkey > something AND yourkey <= somethingelse;
 
 ## Innodb Buffer Pools
 
-- [Innodb Buffer Pool](./Innodb_buffer_pool.md)
+- [Innodb Buffer Pool](innodb/Innodb_buffer_pool.md)
 
 
 ## Reduce Deadlocks
@@ -41,9 +51,16 @@ WHERE yourkey > something AND yourkey <= somethingelse;
 
 ## Innodb Status
 
-- [Innodb Status](./Innodb_status.md)
+- [Innodb Status](innodb/Innodb_status.md)
 
-## REF
+## MVCC
+
+InnoDB adds three fields to each row stored in a database:
+- DB_TRX_ID: Transaction identifier
+- DB_ROLL_PTR: Roll pointer
+- DB_ROW_ID: Row ID
+
+## Reference
 
 - [innodb-storage-engine](https://dev.mysql.com/doc/refman/5.6/en/innodb-storage-engine.html)
 

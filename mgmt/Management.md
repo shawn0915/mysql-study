@@ -1,17 +1,20 @@
 # Management
 
-> 重中之重是保障数据安全
-> 有效的备份是最后一颗救命稻草
+**重中之重是保障数据安全, 有效的备份是最后一颗救命稻草**
 
-## Deploy
+## Content
 
-- [Installation](Installation/Readme.md)
-- [Configuration](Configuration/Readme.md)
-- [Maintenance](Maintenance/Readme.md)
-  - Log
-  - Metadata
+- [Architecture](#architecture)
+- [Deploy](#deploy)
+- [Optimize](#optimize)
+- [Monitor](#monitor)
+- [Storage Engine](storageEngine/StorageEngines.md)
+- [Partitioning](partitioning/Partitioning.md)
+- [Tools](tools/Tools.md)
+
 
 ## Architecture
+架构
 
 - 硬件架构
   - x86_64
@@ -21,7 +24,14 @@
 - 网络拓扑
   - [Communication Protocols](Architecture/ComProtocols.md)
 
-## [存储引擎 Storage Engines](StorageEngine/Readme.md)
+## Deploy
+部署
+
+- [Installation](Installation/Readme.md)
+- [Configuration](Configuration/Readme.md)
+- [Maintenance](Maintenance/Readme.md)
+  - Log
+  - Metadata
 
 
 ## Optimize
@@ -66,7 +76,4 @@
 ## 诊断、排错 TroubleShooting
 
 
-## 工具 Tools
-
-- [Tools](Tools/Readme.md)
 

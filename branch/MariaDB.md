@@ -2,6 +2,12 @@
 v10.2.10
 
 
+## ReleaseVersion
+
+- MariaDB 10.2
+- MariaDB 10.1
+
+
 ## Docker-MariaDB
 
 - [docker-mariadb](https://github.com/shawn0915/docker-study/blob/master/docker/mariadb-docker.md)

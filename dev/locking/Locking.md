@@ -29,14 +29,8 @@
 
 ## 监控状态
 
-```mysql
-SHOW FULL PROCESSLIST;
-SHOW ENGINE INNODB STATUS;
+- [information_schema](../../sql_scripts/sql_mgmt/sql_information_schema.sql)
 
-SELECT * FROM INFORMATION_SCHEMA.INNODB_TRX;
-SELECT * FROM INFORMATION_SCHEMA.INNODB_LOCKS;
--- SELECT * FROM INFORMATION_SCHEMA.INNODB_WAITS;
-```
 
 ## Deadlocks
 

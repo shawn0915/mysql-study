@@ -20,19 +20,19 @@
 
 ## SQL开发
 
-- [SQL语言(Structured Query Language)](sql_scripts/sql_demo.sql)
+- [SQL语言(Structured Query Language)](../sql_scripts/sql_dev/sql_demo.sql)
 - 语法标准
   - ANSI SQL-89
   - ANSI SQL-92
 - 范式  
 - 设计规范
-- [审核 Audit](Audit/Audit.md)
+- [审核 Audit](audit/Audit.md)
   - [audit log](../mgmt/Maintenance/Log/audit_log.md)
 
 ## Transactions and Locking
 
 - [Transactions](transactions/Transaction.md)
-- [Locking](Locking/Readme.md)
+- [Locking](locking/Locking.md)
 
 ## Programming Inside MySQL
 
@@ -41,13 +41,13 @@
 - Stored Routines
   - Stored Procedure
     - CALL statement
-    - [EXAMPLE](programming/ex_procedure.sql)
+    - [EXAMPLE](../sql_scripts/programming/ex_procedure.sql)
   - Stored Function
-    - [EXAMPLE](programming/ex_function.sql)
+    - [EXAMPLE](../sql_scripts/programming/ex_function.sql)
 - EVENT
-  - [EXAMPLE](programming/ex_event.sql)
+  - [EXAMPLE](../sql_scripts/programming/ex_event.sql)
 - TRIGGER
-  - [EXAMPLE](programming/ex_trigger.sql)
+  - [EXAMPLE](../sql_scripts/programming/ex_trigger.sql)
 ```
 触发顺序：
 
@@ -62,7 +62,7 @@ INSERT:
 
 ```
 - VIEW
-- [EXAMINE](programming/examine.sql)
+- [EXAMINE](../sql_scripts/programming/examine.sql)
 
 ### Privileges
 
@@ -81,7 +81,7 @@ DROP TRIGGER;
 ## 事务和锁 Transactions and Locking
 
 - [Transactions](transactions/Transaction.md)
-- [Locking](Locking/Readme.md)
+- [Locking](locking/Locking.md)
 
  
 ## REF

@@ -1,10 +1,10 @@
 # Tools
 
-- 建模
+- Model
   - PowerDesigner
-- 访问
-  - Navicat
-  - DataGrip
+- Connect
+  - Navicat for MySQL
+  - JetBrain DataGrip
   - HeidiSQL
 - Manage
   - [MySQL Workbench](https://dev.mysql.com/doc/workbench/en/)
@@ -13,7 +13,7 @@
     - Server Administration
   - Backup
     - MySQL Enterprise Backup
-    - ```mysqldump``` : Logical backups
+    - `mysqldump` : Logical backups
   - Replication
     - mysqldbcopy
     - mysqldbcompare
@@ -22,20 +22,21 @@
   - Router/Proxy
     - mysql router
     - ProxySQL
-- 测试
+- Test
   - [Sysbench](Sysbench/sysbench.md)
   - orion
   - supersmack
   - [mysql-tpcc](mysql-tpcc.md)
-- 工具集
+- ToolKit
   - mysql utilties
   - [mysql client](mysql-client.md)
   - [percona-tools for mysql](perconaTools.md)
   - orzdba,iotop,ytop
   - pstack
-- 监控 Monitor
+- Monitor
   - [MySQL Enterprise Monitor](https://www.mysql.com/products/enterprise/monitor.html)
-- others
+  - [Percona Monitoring and Management](https://www.percona.com/software/database-tools/percona-monitoring-and-management)
+- Others
   - [通用的存储过程库](http://mysql-sr-lib.sourceforge.net/)
   - [移植SQL Server上的存储过程](https://github.com/TownSuite/tsql2mysql)
   - [UDF Repository for MySQL](http://www.mysqludf.org/)
