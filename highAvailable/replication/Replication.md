@@ -3,8 +3,11 @@
 
 - Replication
 - 同步复制
-- [Semisynchronous Replication 半同步复制](replication/semisync.md)
+- [Semisynchronous Replication 半同步复制](semisync.md)
+  - 无损半同步复制 `rpl_semi_sync_master_wait_point`
 - Asynchronous Replication 异步复制
+- 多源复制
+- 组复制
 - [GTIDs](replication/GTIDs.md)
 - binary log
 - [replication threads and logs](replication/ReplicationThreads.md)
@@ -55,10 +58,9 @@ SHOW MASTER STATUS;
 mysqldump -uroot -p --master-data -B sakila > backup_sakila.sql
 ```
 
-## REF
+## Reference
 
 - [faqs-replication](https://dev.mysql.com/doc/refman/5.6/en/faqs-replication.html)
 - [replication-features](https://dev.mysql.com/doc/refman/5.6/en/replication-features.html)
-
 
 

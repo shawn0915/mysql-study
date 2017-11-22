@@ -1,4 +1,5 @@
 # Semisynchronous Replication
+半同步复制
 
 ## REF
 

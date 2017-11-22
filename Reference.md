@@ -15,12 +15,13 @@
 - [index-other](https://dev.mysql.com/doc/index-other.html)
 
 
-## social
+## Social
 
 - [翟振兴（网易高级DBA）个人博客 ](http://zhaizhenxing.blog.51cto.com/)
 - [wiki](https://en.wikipedia.org/wiki/MySQL)
 - [hatemysql](http://hatemysql.com/)
 - [All China MySQL User Group (ACMUG)](http://acmug.net)
+
 
 ## OCP(MySQL)
 
