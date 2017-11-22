@@ -18,6 +18,9 @@ CREATE PROCEDURE record_count()
   END//
 DELIMITER ;
 
+/*
+CALL statement
+ */
 CALL record_count();
 
 -- ---------------------------------------------------------------------

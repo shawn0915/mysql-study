@@ -22,19 +22,23 @@
   - [Alibaba AliSQL](https://github.com/alibaba/AliSQL)
 - [Reference](Reference.md)
 
-## Release
+## ReleaseVersion
 
 - MySQL 8.0 (2016-feature)
 - [MySQL 5.7.20 (2013-now)](release/mysql-5-7.md)
 - MySQL 5.6.30 (2011-2017)
 - MySQL 5.5 (2009-2017)
 - MySQL 5.1 (2006-2013)
-- MySQL 5.0 (2005-2012)
-- MySQL 3.23.15 => Replication
-- MySQL 3.21 (1998)
-- MySQL 3.19 (1996)
-- MySQL 1.0 (1995)
-- Orgin (1979)
+- Old Version
+  - MySQL 5.0 (2005-2012)
+  - MySQL 4.1
+  - MySQL 4.0
+  - MySQL 3.23.15 => Replication
+  - MySQL 3.22
+  - MySQL 3.21 (1998)
+  - MySQL 3.19 (1996)
+  - MySQL 1.0 (1995)
+  - Orgin (1979)
 
 ## History
 

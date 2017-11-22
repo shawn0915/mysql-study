@@ -1,5 +1,5 @@
 # Development
-开发阶段
+开发设计
 
 
 ## Plan and Design
@@ -30,61 +30,23 @@
   - [audit log](../mgmt/Maintenance/Log/audit_log.md)
 
 ## Transactions and Locking
+事务和锁
 
 - [Transactions](transactions/Transaction.md)
 - [Locking](locking/Locking.md)
 
 ## Programming Inside MySQL
 
-### Programming
-
 - Stored Routines
-  - Stored Procedure
-    - CALL statement
-    - [EXAMPLE](../sql_scripts/programming/ex_procedure.sql)
-  - Stored Function
-    - [EXAMPLE](../sql_scripts/programming/ex_function.sql)
-- EVENT
-  - [EXAMPLE](../sql_scripts/programming/ex_event.sql)
-- TRIGGER
-  - [EXAMPLE](../sql_scripts/programming/ex_trigger.sql)
-```
-触发顺序：
-
-UPDATE:
-	BEFORE INSERT
-	BEFORE UPDATE
-	AFTER UPDATE
-
-INSERT:
-	BEFORE INSERT
-	AFTER INSERT
-
-```
+  - [Stored Procedure](../sql_scripts/sql_program/ex_procedure.sql)
+  - [Stored Function](../sql_scripts/sql_program/ex_function.sql)
+- [EVENT](../sql_scripts/sql_program/ex_event.sql)
+- [TRIGGER](../sql_scripts/sql_program/ex_trigger.sql)
 - VIEW
-- [EXAMINE](../sql_scripts/programming/examine.sql)
+- [Privileges](../sql_scripts/sql_program/ex_privilege.sql)
+- [EXAMINE](../sql_scripts/sql_program/examine.sql)
 
-### Privileges
-
-- ```TRIGGER``` privilege
-```mysql
-CREATE TRIGGER;
-DROP TRIGGER;
-```
-
-- ```EVENT``` privilege
-  - create, modify, or delete events.
-  - You must have the **SUPER** privilege to set the global ```event_scheduler``` variable.
-  - **event_scheduler** thread
-
-
-## 事务和锁 Transactions and Locking
-
-- [Transactions](transactions/Transaction.md)
-- [Locking](locking/Locking.md)
-
- 
-## REF
+## Reference
 
 - [condition-handling](https://dev.mysql.com/doc/refman/5.6/en/condition-handling.html)
 - [example database](https://dev.mysql.com/doc/index-other.html)

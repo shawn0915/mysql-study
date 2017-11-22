@@ -1,6 +1,13 @@
 # Data Types
 数据类型
 
+- Numeric
+- String
+- Binary
+- Temporal
+- Spatial
+- JSON
+
 ## Numeric
 
 - Integer
@@ -40,32 +47,16 @@
 > MyISAM supports both spatial and non-spatial indexes.
 
 ## JSON
+Support from MySQL 5.7.8
 
-```mysql
-CREATE TABLE t1 (
-a JSON,
-b INT,
-g INT GENERATED ALWAYS AS (a->"$.id"),
-h INT GENERATED ALWAYS AS (a->"$.storeid"),
-INDEX i (g),
-INDEX j (h)
-);
--- 
-SELECT
-CONCAT(a->"$.fname", ' ', a->"$.lname") AS name,
-a->"$.id" AS id,
-a->"$.storeid" AS store
-FROM t1
-WHERE g > 500
-ORDER BY a->"$.storeid", a->"$.lname";
-```
+- [sql_demo_json](../../sql_scripts/sql_dev/DataType_json.sql)
+
 
 ## * NULL
 
 
-## REF
+## Reference
 
-- [refman-data-types](https://dev.mysql.com/doc/refman/5.6/en/data-types.html)
+- [refman-56-data-types](https://dev.mysql.com/doc/refman/5.6/en/data-types.html)
+- [refman-57-data-types](https://dev.mysql.com/doc/refman/5.7/en/data-types.html)
 - [mysql-json](https://dev.mysql.com/doc/refman/5.7/en/json.html)
-
-
