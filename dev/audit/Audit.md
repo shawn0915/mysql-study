@@ -16,3 +16,6 @@
 ![SQL审核注意事项](IMG_1539.PNG)
 
 
+## Reference
+
+- [Oracle MySQL云服务上的MySQL企业版审计](https://mp.weixin.qq.com/s/SLE6Hes5Oe5IYqcEA9tCkA)

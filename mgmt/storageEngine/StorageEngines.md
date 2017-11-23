@@ -7,6 +7,7 @@
 - [InnoDB](InnoDB.md)
   - [Percona XtraDB](XtraDB.md)
 - [MyISM](MyISM.md)
+  - Aria
 - [MEMORY](MEMORY.md)
 - [ARCHIVE](ARCHIVE.md)
 - FEDERATED

@@ -17,6 +17,7 @@
 
 ## Social
 
+- [褚霸blog](http://blog.yufeng.info)
 - [翟振兴（网易高级DBA）个人博客 ](http://zhaizhenxing.blog.51cto.com/)
 - [wiki](https://en.wikipedia.org/wiki/MySQL)
 - [hatemysql](http://hatemysql.com/)
@@ -105,12 +106,18 @@
 - [MySQL 5.7 双主复制+keepalived，常规业务一般够用了](http://mp.weixin.qq.com/s/sryCTX-LOwYj2y2aHYytjg)
 
 
-## MySQL_8.0
+Goal and Path
+---
 
-
-
+- [大数据时代下的DBA该何去何从？](https://mp.weixin.qq.com/s/hl0xd9S85khF1T6Kmh3Mww)
+- [独家：这也许是最具珍藏价值的Oracle DBA生存宝典！](https://mp.weixin.qq.com/s/0heYRjqU_Nj-ILT27RtI_Q)
+- [20年资深Oracle数据库专家：国内应用级DBA的缺失](https://mp.weixin.qq.com/s/gD_obJ7vMeHFWghFqMxtaA)
+- [从发端到燎原之势，我看中国数据库39年 / 林易](https://mp.weixin.qq.com/s/YcsEgn89ZvekfJI7r8HeHw)
+- [年关至，DBA们如何完美逆袭职场进阶之路？](https://mp.weixin.qq.com/s/oFsxjtyLBUTg2mwZ3hq7xw)
 
 ## other
 
 - [What is CDB for My SQL?](https://www.qcloud.com/document/product/236/5147)
 - [MySQL 资源大全](http://blog.jobbole.com/100516/)
+- [120篇精华文章打包送，干货慎入！](http://dbaplus.cn/news-21-1423-1.html)
+- [从Oracle迁移到MySQL的各种坑及自救方案](https://mp.weixin.qq.com/s/HEoUojVtSuKKsdMDq7yF0Q)

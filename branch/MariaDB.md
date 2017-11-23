@@ -7,9 +7,10 @@ v10.2.10
 - [ReleaseVersion](https://en.wikipedia.org/wiki/MariaDB#Versioning)
 - [Docker-MariaDB](https://github.com/shawn0915/docker-study/blob/master/docker/mariadb-docker.md)
 - [Engine-XtraDB](../mgmt/storageEngine/XtraDB.md)
-- [Reference](#reference)
 
+## MariaDB vs MySQL
 
+- MariaDB10.0/10.1的GTID复制跟MySQL5.6不兼容
 
 
 ## Reference
