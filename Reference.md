@@ -121,3 +121,4 @@ Goal and Path
 - [MySQL 资源大全](http://blog.jobbole.com/100516/)
 - [120篇精华文章打包送，干货慎入！](http://dbaplus.cn/news-21-1423-1.html)
 - [从Oracle迁移到MySQL的各种坑及自救方案](https://mp.weixin.qq.com/s/HEoUojVtSuKKsdMDq7yF0Q)
+- [全面梳理关系型数据库和NoSQL的使用情景](https://mp.weixin.qq.com/s/1QOoDG5BLWXHVpVFyWD5AQ)

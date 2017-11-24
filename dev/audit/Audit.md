@@ -19,3 +19,4 @@
 ## Reference
 
 - [Oracle MySQL云服务上的MySQL企业版审计](https://mp.weixin.qq.com/s/SLE6Hes5Oe5IYqcEA9tCkA)
+- [2016 DTCC 回顾：DevOps时代的SQL审核潮流与风气渐成](https://mp.weixin.qq.com/s/kglcOWJrLbD5EdurKBpA-Q)

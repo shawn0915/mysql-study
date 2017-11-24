@@ -20,6 +20,7 @@
   - [MariaDB](branch/MariaDB.md)
   - [Percona Server](branch/PerconaServer.md)
   - [Alibaba AliSQL](https://github.com/alibaba/AliSQL)
+  - Tencent TDSQL
 - [Reference](Reference.md)
 
 ## ReleaseVersion
