@@ -24,14 +24,14 @@
   - Router/Proxy
     - MySQL Router
     - ProxySQL
-- Test
-  - [Sysbench](sysbench/Sysbench.md)
+- Testing
+  - [Sysbench](../testing/sysbench/Sysbench.md)
   - orion
   - supersmack
-  - [mysql-tpcc](mysql-tpcc.md)
+  - [mysql-tpcc](../testing/mysql-tpcc.md)
 - ToolKit
   - mysql utilties
-  - [mysql client](mysql-client.md)
+  - [mysql client](../../scripts/sql_mgmt/sql_mysql_client.sql)
   - [percona-tools for mysql](perconaTools.md)
   - orzdba,iotop,ytop
   - pstack
@@ -47,3 +47,8 @@
   - [common_schema](https://github.com/shlomi-noach/common_schema)
     - [old index](http://code.openark.org/forge/common_schema)
     > The common_schema is to MySQL as jQuery is to javaScript.
+
+
+## Reference
+   
+- [MySQL Client Programs](https://dev.mysql.com/doc/refman/5.6/en/programs-client.html)

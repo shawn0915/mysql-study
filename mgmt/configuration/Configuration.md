@@ -5,8 +5,8 @@
 ```bash
 mysqld --verbose --help
 ```
-> Option File
-- my.cnf
+
+## my.cnf
 
 ## Variables
 
@@ -35,6 +35,6 @@ SELECT @@sql_mode;
 
 ```
 
-## REF
+## Reference
 
 - [server-configuration](https://dev.mysql.com/doc/refman/5.6/en/server-configuration.html)

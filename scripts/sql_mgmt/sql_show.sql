@@ -1,6 +1,3 @@
-# SHOW Statements
-
-```mysql
 SHOW DATABASES ;
 -- SHOW CREATE TABLE
 SHOW CREATE TABLE CITY ;
@@ -22,5 +19,4 @@ SHOW TABLE STATUS ;
 SHOW PLUGINS ;
 -- GRANT
 SHOW GRANTS ;
-SHOW GRANTS FOR 'shawn'@'localhost';
-```
+SHOW GRANTS FOR 'shawnyan'@'%';

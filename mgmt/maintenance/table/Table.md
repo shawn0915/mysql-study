@@ -1,26 +1,5 @@
 # Table Maintenance
 
-## Utilities
-
-- mysqlcheck
-
-  - Works with InnoDB, MyISAM, and ARCHIVE tables
-  - Three levels of checking
-    - Table-specific
-    - Database-specific
-    - All databases
-    
-```mysql
-mysqlcheck --login-path=admin world_innodb City Country
-```
-
-- myisamchk
-
-  - Is a non-client utility that checks MyISAM tables
-
-
-
-## SQL
 
 ```mysql
 ANALYZE TABLE
@@ -30,7 +9,7 @@ REPAIR TABLE
 OPTIMIZE TABLE
 ```
 
-- ANALYZE TABLE
+## ANALYZE TABLE
 
   - During the analysis, MySQL locks the table with a **read lock** for InnoDB and MyISAM.
   - This statement is equivalent to using ```mysqlcheck --analyze```.
@@ -49,7 +28,7 @@ OPTIMIZE TABLE
 
 ```
 
-- CHECK TABLE
+## CHECK TABLE
 
   - Works with InnoDB, CSV, MyISAM, and ARCHIVE tables
   - Supports partitioned tables. You can also use ```ALTER TABLE...CHECK PARTITION``` to check one or more partitions.
@@ -74,7 +53,7 @@ OPTIMIZE TABLE
 
 ```
 
-- CHECKSUM TABLE
+## CHECKSUM TABLE
 
   - ```CHECKSUM TABLE``` requires the ```SELECT``` privilege for the table.
   - If the QUICK option is used
@@ -102,16 +81,16 @@ OPTIMIZE TABLE
 1 row in set, 1 warning (0.00 sec)
 ```
 
-- REPAIR TABLE
+## REPAIR TABLE
 
-  - Repairs a possibly corrupted MyISAM or ARCHIVE table
-    - Does not support InnoDB
-  - Supports partitioned tables
-  - REPAIR TABLE options
-    - QUICK
-    - EXTENDED
-    - USE_FRM
-    - NO_WRITE_TO_BINLOG or LOCAL
+- Repairs a possibly corrupted MyISAM or ARCHIVE table
+  - Does not support InnoDB
+- Supports partitioned tables
+- REPAIR TABLE options
+  - QUICK
+  - EXTENDED
+  - USE_FRM
+  - NO_WRITE_TO_BINLOG or LOCAL
 
 ```mysql
 
@@ -125,8 +104,7 @@ OPTIMIZE TABLE
 
 ```
 
-
-- OPTIMIZE TABLE
+## OPTIMIZE TABLE
 
   - Locks the table during optimization
   - Updates index statistics
@@ -159,9 +137,3 @@ OPTIMIZE TABLE
 1 row in set (0.00 sec)
 
 ```
-
-## REF
-
-- [table-maintenance-sql](https://dev.mysql.com/doc/refman/5.6/en/table-maintenance-sql.html)
-
-

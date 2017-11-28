@@ -1,4 +1,4 @@
-# Metadata
+# INFORAMTION_SCHEMA
 
 > INFORAMTION_SCHEMA
 
@@ -98,11 +98,3 @@ CREATE TABLE sakila.staff_list_backup LIKE sakila.staff_list;
 CREATE TABLE sakila.store_backup LIKE sakila.store;
 
 ```
-
-
-
-# REF
-
-- [refman-information-schema](https://dev.mysql.com/doc/refman/5.6/en/information-schema.html)
-
-

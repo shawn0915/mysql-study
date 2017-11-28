@@ -1,5 +1,6 @@
 # Backup
 
+> 重中之重是保障数据安全, 有效的备份是最后一颗救命稻草
 
 - Hot 热备份
   - mysqlhotcopy
@@ -23,21 +24,13 @@
       - ```lvremove VG_MYSQL/lv_datadirbackup```
   - Binary logs
   - Logical/textual backup
-    - mysqldump
+    - [mysqldump](../../scripts/sql_mgmt/sql_mysql_client.sql)
       - less then a few GBs
     - mysqlimport
 - Warm
   - middle-of-the-road backup type
   - Not being able to modify data during backups
 
-
-
-## mysqldump
-
-```bash
-mysqldump -l MyISAM
-mysqldump --single -transation Innodb
-```
 
 ## Export data
 

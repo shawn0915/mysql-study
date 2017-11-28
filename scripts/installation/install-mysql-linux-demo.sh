@@ -1,5 +1,5 @@
+#!/usr/bin/env bash
 
-```bash
 groupadd mysql
 useradd -r -g mysql mysql
 cd /usr/local
@@ -14,8 +14,3 @@ chown -R mysql data
 
 cp support-files/my-small.cnf /etc/my.cnf
 bin/mysqld_safe --user=mysql &
-```
-
-
-
-

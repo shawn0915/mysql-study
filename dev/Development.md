@@ -32,7 +32,7 @@
 - 范式
 - 设计规范
 - [审核 Audit](audit/Audit.md)
-  - [audit log](../mgmt/maintenance/Log/audit_log.md)
+  - [audit log](../mgmt/maintenance/log/Audit_Log.md)
 
 ## Transactions and Locking
 事务和锁

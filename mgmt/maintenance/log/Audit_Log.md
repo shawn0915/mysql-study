@@ -1,8 +1,13 @@
 # Audit Log
 
-## mariadb audit log
+- MySQL Audit
+  - MySQL Enterprise Audit
+    - `--audit_log, --audit_log_file`
+- MariaDB Audit
 
-> 运行过程中安装插件
+## MariaDB audit log
+
+- 运行过程中安装插件
 
 ```mysql
 INSTALL PLUGIN server_audit SONAME 'server_audit.so';
@@ -12,7 +17,7 @@ SHOW VARIABLES LIKE 'server_audit%';
 UNINSTALL PLUGIN server_audit;
 ```
 
-> 写入配置文件，并防止运行期间卸载
+- 写入配置文件，并防止运行期间卸载
 
 ```bash
 vim /etc/my.cnf
@@ -23,9 +28,8 @@ plugin_load = audit_log.so
 audit_log = FORCE_PLUS_PERMANENT;
 ```
 
+- 停止服务，安装审计插件
 
-
-> 停止服务，安装审计插件
 ```bash
 vim /etc/my.cnf
 ```
@@ -41,7 +45,7 @@ server_audit_logging=ON
 server_audit_query_log_limit=102400
 ```
 
-> audit log format
+- audit log format
 
 ```mysql
 <AUDIT_RECORD TIMESTAMP="2012-10-12T09:35:15"

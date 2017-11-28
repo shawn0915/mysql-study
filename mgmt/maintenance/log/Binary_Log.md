@@ -1,4 +1,5 @@
 # BINARY LOG
+二进制日志 binary log (--log_bin, --expire_logs_days)
 
 ```mysql
 -- SHOW MASTER STATUS

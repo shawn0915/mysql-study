@@ -1,25 +1,28 @@
 # Slow Query Log
+慢查询日志 slow query log (--slow_query_log, --long_query_time)
 
-> 配置
+- 配置
 
 ```bash
 vim /etc/my.cnf
 
 [mysqld]
 
-# MySQL5.5
+# MySQL 5.5
 long_query_time=1
 log-slow-queries=/data/mysql/data/slowlog.log
 
-# MySQL5.6
+# MySQL 5.6
 slow-query-log=1
 slow-query-log-file=/data/mysql/data/slowlog.log
 # 慢查询时间阈值，默认10s
 long_query_time=1
+
+# MySQL 5.7
+# todo
 ```
 
-
-> 查看变量
+- 查看变量
 
 ```mysql
 show variables like '%slow%';
@@ -49,8 +52,7 @@ set global long_query_time=1;
 set session long_query_time=1;
 ```
 
-
-> 查询SQL不适用索引
+- 查询SQL不适用索引
 
 ```bash
 mysqld --log-queries-not-using-indexes
