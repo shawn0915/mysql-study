@@ -7,11 +7,12 @@
   - JetBrain DataGrip
   - HeidiSQL
   - Toad for MySQL
-- Manage
+- Management
   - [MySQL Workbench](https://dev.mysql.com/doc/workbench/en/)
     - SQL Development
     - Database Design and Modeling
     - Server Administration
+  - [Oracle Enterprise Manager for MySQL](https://www.mysql.com/products/enterprise/em.html)
   - Backup
     - MySQL Enterprise Backup
     - `mysqldump` : Logical backups
