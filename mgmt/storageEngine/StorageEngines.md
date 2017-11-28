@@ -21,7 +21,7 @@
 
 ## SQL
 
-- [sql_engines](../../sql_scripts/sql_mgmt/sql_engines.sql)
+- [sql_engines](../../scripts/sql_mgmt/sql_engines.sql)
 
 ## Reference
 

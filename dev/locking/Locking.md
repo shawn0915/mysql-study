@@ -29,7 +29,7 @@
 
 ## 监控状态
 
-- [information_schema](../../sql_scripts/sql_mgmt/sql_information_schema.sql)
+- [information_schema](../../scripts/sql_mgmt/sql_information_schema.sql)
 
 
 ## Deadlocks

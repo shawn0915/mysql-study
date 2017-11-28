@@ -7,9 +7,9 @@
   - root access
   - mysql_secure_installation
 - Operating System Security
-  - 防火墙
-  - 网络
-  - 账户权限
+  - Firewall
+  - Network
+  - Privilege
 - File Systems
   - MySQL programs
   - Database directories and files
@@ -34,11 +34,9 @@ grep 'temporary password' /var/log/mysqld.log
 
 > [SSL Protocol](SSL/Readme.md)
 
-## Audit
 
 
-
-## REF
+## Reference
 
 - MySQL Security
   - [security](https://dev.mysql.com/doc/refman/5.6/en/security.html)

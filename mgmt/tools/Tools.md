@@ -6,6 +6,7 @@
   - Navicat for MySQL
   - JetBrain DataGrip
   - HeidiSQL
+  - Toad for MySQL
 - Manage
   - [MySQL Workbench](https://dev.mysql.com/doc/workbench/en/)
     - SQL Development
@@ -21,10 +22,10 @@
     - mysqlrpladmin
     - mysqlfailover
   - Router/Proxy
-    - mysql router
+    - MySQL Router
     - ProxySQL
 - Test
-  - [Sysbench](Sysbench/sysbench.md)
+  - [Sysbench](sysbench/Sysbench.md)
   - orion
   - supersmack
   - [mysql-tpcc](mysql-tpcc.md)

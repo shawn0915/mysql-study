@@ -12,9 +12,10 @@
 
 - [Development](dev/Development.md)
 - [Management](mgmt/Management.md)
+- [Connectors](connectors/Connectors.md)
 - [High Available](highAvailable/HighAvailable.md)
 - [RDS](rds/RDS.md)
-- [Docker-MySQL](https://github.com/shawn0915/docker-study/blob/master/docker/mysql-docker.md#mysql-docker)
+- [Docker-MySQL](https://github.com/shawn0915/docker-study/blob/master/docker/Docker-MySQL.md#mysql-docker)
 - [Solutions](solutions/Solutions.md)
 - Branch
   - [MariaDB](branch/MariaDB.md)

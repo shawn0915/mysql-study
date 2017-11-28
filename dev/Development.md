@@ -20,7 +20,7 @@
 
 ## SQL开发
 
-- [SQL语言(Structured Query Language)](../sql_scripts/sql_dev/sql_demo.sql)
+- [SQL语言(Structured Query Language)](../scripts/sql_dev/sql_demo.sql)
 - 语法标准
   - ANSI SQL-89
   - ANSI SQL-92
@@ -32,7 +32,7 @@
 - 范式
 - 设计规范
 - [审核 Audit](audit/Audit.md)
-  - [audit log](../mgmt/Maintenance/Log/audit_log.md)
+  - [audit log](../mgmt/maintenance/Log/audit_log.md)
 
 ## Transactions and Locking
 事务和锁
@@ -43,17 +43,17 @@
 ## Programming Inside MySQL
 
 - Stored Routines
-  - [Stored Procedure](../sql_scripts/sql_program/ex_procedure.sql)
-  - [Stored Function](../sql_scripts/sql_program/ex_function.sql)
-- [EVENT](../sql_scripts/sql_program/ex_event.sql)
-- [TRIGGER](../sql_scripts/sql_program/ex_trigger.sql)
+  - [Stored Procedure](../scripts/sql_program/ex_procedure.sql)
+  - [Stored Function](../scripts/sql_program/ex_function.sql)
+- [EVENT](../scripts/sql_program/ex_event.sql)
+- [TRIGGER](../scripts/sql_program/ex_trigger.sql)
 - VIEW
-- [Privileges](../sql_scripts/sql_program/ex_privilege.sql)
-- [EXAMINE](../sql_scripts/sql_program/examine.sql)
+- [Privileges](../scripts/sql_program/ex_privilege.sql)
+- [EXAMINE](../scripts/sql_program/examine.sql)
 
 ## Reference
 
 - [condition-handling](https://dev.mysql.com/doc/refman/5.6/en/condition-handling.html)
 - [example database](https://dev.mysql.com/doc/index-other.html)
 - [test-db](https://launchpad.net/test-db/)
-- [](https://dev.mysql.com/doc/refman/5.7/en/compatibility.html)
+- [compatibility/ANSI](https://dev.mysql.com/doc/refman/5.7/en/compatibility.html)

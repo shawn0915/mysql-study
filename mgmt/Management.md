@@ -4,36 +4,41 @@
 
 ## Content
 
-- [Architecture](#architecture)
-- [Deploy](#deploy)
-- [Testing](#testing)
-- [Optimize](optimize/Optimize.md)
-- [Monitor](monitor/Monitor.md)
-- [Storage Engine](storageEngine/StorageEngines.md)
-- [Partitioning](partitioning/Partitioning.md)
-- [TroubleShooting](troubleShooting/TroubleShooting.md)
-- [Security](security/Security.md)
-- [Change](change/Change.md)
-- [Tools](tools/Tools.md)
+- [x] [Architecture](#architecture)
+- [ ] [Deploy](#deploy)
+- [ ] [Testing](#testing)
+- [ ] [Optimize](optimize/Optimize.md)
+- [ ] [Monitor](monitor/Monitor.md)
+- [ ] [Storage Engine](storageEngine/StorageEngines.md)
+- [ ] [Partitioning](partitioning/Partitioning.md)
+- [ ] [TroubleShooting](troubleShooting/TroubleShooting.md)
+- [ ] [Security](security/Security.md)
+- [x] [Change](change/Change.md)
+- [x] [Globalization](globalization/Globalization.md)
+- [x] [Tools](tools/Tools.md)
 
 
 ## Architecture
 架构
 
-- 硬件架构
+- Hardware硬件架构
   - x86_64
-- 系统架构
-  - [Memory](Architecture/Memory.md)
-  - [Disk](Architecture/Disk.md)
-- 网络拓扑
-  - [Communication Protocols](Architecture/ComProtocols.md)
+- Architecture系统架构
+  - [Memory](arch/Memory.md)
+  - [Disk](arch/Disk.md)
+- Network网络拓扑
+  - Communication Protocols
+    - TCP/IP
+    - UNIX **socket** file
+    - Shared memory
+    - Named pipes
 
 ## Deploy
 部署
 
-- [Installation](Installation/Readme.md)
-- [Configuration](Configuration/Readme.md)
-- [Maintenance](Maintenance/Readme.md)
+- [ ] [Installation](installation/Installation.md)
+- [ ] [Configuration](Configuration/Readme.md)
+- [ ] [Maintenance](maintenance/Maintenance.md)
   - Log
   - Metadata
 

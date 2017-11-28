@@ -56,7 +56,7 @@ The NULL value means "no data."
 ## JSON
 Support from MySQL 5.7.8
 
-- [sql_demo_json](../../sql_scripts/sql_dev/DataType_json.sql)
+- [sql_demo_json](../../scripts/sql_dev/DataType_json.sql)
 
 
 ## Reference

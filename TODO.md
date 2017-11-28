@@ -12,3 +12,4 @@ TODO
   - [ ] performance schema增强
   - [ ] 在线修改VARCHAR长度
   - [ ] 并发复制 `slave_parallel_type=LOGICAL_CLOCK`
+- [ ] 2017-11-28.pt-tool-kit review
