@@ -15,4 +15,3 @@
 - [ ] [Security](security/Security.md)
 - [x] [Change](change/Change.md)
 - [x] [Globalization](globalization/Globalization.md)
-- [x] [Tools](tools/Tools.md)

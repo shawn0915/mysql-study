@@ -8,21 +8,21 @@
 - [Supported Platforms: MySQL Database](https://www.mysql.com/support/supportedplatforms/database.html)
 - [news](http://www.mysql.com/news-and-events/web-seminars/)
 - [events](http://www.mysql.com/news-and-events/events/)
-- [oracle-wiki](https://wikis.oracle.com/display/mysql)
-- [shop](https://shop.oracle.com/)
+- [oracle-wiki/mysql](https://wikis.oracle.com/display/mysql)
+- [oracle/shop](https://shop.oracle.com/)
 - [err-msg](https://dev.mysql.com/doc/refman/5.6/en/error-messages-server.html)
 - [glossary](https://dev.mysql.com/doc/refman/5.6/en/glossary.html)
 - [index-other](https://dev.mysql.com/doc/index-other.html)
 - [oracle/mysql](https://www.oracle.com/mysql/index.html)
+- [mysql/community](https://dev.mysql.com/community/)
 
 ## Social
 
 - [褚霸blog](http://blog.yufeng.info)
 - [翟振兴（网易高级DBA）个人博客 ](http://zhaizhenxing.blog.51cto.com/)
-- [wiki](https://en.wikipedia.org/wiki/MySQL)
+- [wikipedia/mysql](https://en.wikipedia.org/wiki/MySQL)
 - [hatemysql](http://hatemysql.com/)
 - [All China MySQL User Group (ACMUG)](http://acmug.net)
-
 
 ## OCP(MySQL)
 

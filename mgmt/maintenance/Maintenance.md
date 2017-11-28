@@ -4,7 +4,7 @@
   - [Error Log](log/Error_Log.md)
   - [Binary Log](log/Binary_Log.md)
   - [General Log](log/General_Log.md)
-  - [Slow Log](log/Slow_Log.md)
+  - [Slow Query Log](log/Slow_Query_Log.md)
   - [Audit Log](log/Audit_Log.md)
   - [Operation Log](log/Operation_Log.md)
 - [Metadata/INFORAMTION_SCHEMA](metadata/INFORAMTION_SCHEMA.md)

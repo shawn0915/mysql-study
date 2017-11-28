@@ -12,7 +12,7 @@
     - SQL Development
     - Database Design and Modeling
     - Server Administration
-  - [Oracle Enterprise Manager for MySQL](https://www.mysql.com/products/enterprise/em.html)
+  - [Oracle Enterprise Manager for MySQL](https://www.mysql.com/products/enterprise/em.html)
   - Backup
     - MySQL Enterprise Backup
     - `mysqldump` : Logical backups
@@ -26,13 +26,13 @@
     - MySQL Router
     - ProxySQL
 - Testing
-  - [Sysbench](../testing/sysbench/Sysbench.md)
+  - [Sysbench](../mgmt/testing/sysbench/Sysbench.md)
   - orion
   - supersmack
-  - [mysql-tpcc](../testing/mysql-tpcc.md)
+  - [mysql-tpcc](../mgmt/testing/mysql-tpcc.md)
 - ToolKit
   - mysql utilties
-  - [mysql client](../../scripts/sql_mgmt/sql_mysql_client.sql)
+  - [mysql client](../scripts/sql_mgmt/sql_mysql_client.sql)
   - [percona-tools for mysql](perconaTools.md)
   - orzdba,iotop,ytop
   - pstack

@@ -8,10 +8,11 @@
 ![OCP](svg/OCP_MySQL5.6DBAdmin_clr.gif)
 
 
-## Content
+## Contents
 
 - [Development](dev/Development.md)
 - [Management](mgmt/Management.md)
+- [Tools](tools/Tools.md)
 - [Connectors](connectors/Connectors.md)
 - [High Available](highAvailable/HighAvailable.md)
 - [RDS](rds/RDS.md)
@@ -51,9 +52,13 @@ MySQL-RoadMap
 - SUN (2008-2010)
 - Oracle (2010-now)
 
+## Certification
+
+- [Oracle Certified Professional (OCP)](ocp/OCP.md)
+
 ## Books
 
 - High Performance MySQL(高性能MySQL)(3rd v5.5) / O'REILLY
-- Effective MySQL: Optimizing SQL Statements / Ronald Bradford
+- [Effective MySQL: Optimizing SQL Statements / Ronald Bradford](http://effectivemysql.com/book/)
 - MySQL技术内幕：InnoDB存储引擎(第二版) / 姜承尧
 - MySQL管理之道 / 贺春旸
