@@ -5,7 +5,7 @@
 [![MySQL56](svg/MySQL-v5.6-brightgreen.svg)](README.md)
 [![MySQL57](svg/MySQL-v5.7-brightgreen.svg)](README.md)
 
-![OCP](ocp/img/OCP_MySQL5.6DBAdmin_clr.gif)
+![OCP](svg/OCP_MySQL5.6DBAdmin_clr.gif)
 
 
 ## Content
@@ -15,7 +15,7 @@
 - [High Available](highAvailable/HighAvailable.md)
 - [RDS](rds/RDS.md)
 - [Docker-MySQL](https://github.com/shawn0915/docker-study/blob/master/docker/mysql-docker.md#mysql-docker)
-- [Case](case/Case.md)
+- [Solutions](solutions/Solutions.md)
 - Branch
   - [MariaDB](branch/MariaDB.md)
   - [Percona Server](branch/PerconaServer.md)
@@ -42,7 +42,7 @@
   - Orgin (1979)
 
 MySQL-RoadMap
-![Release](releaseVersion/mysql-roadMap.jpeg)
+![MySQL-RoadMap](releaseVersion/mysql-roadMap.jpeg)
 
 ## History
 
@@ -52,7 +52,7 @@ MySQL-RoadMap
 
 ## Books
 
-- High Performance MySQL(高性能MySQL)(3rd v5.5)/O'REILLY
-- Effective MySQL: Optimizing SQL Statements/Ronald Bradford
-- MySQL技术内幕：InnoDB存储引擎(第二版)/姜承尧
-- MySQL管理之道/贺春旸
+- High Performance MySQL(高性能MySQL)(3rd v5.5) / O'REILLY
+- Effective MySQL: Optimizing SQL Statements / Ronald Bradford
+- MySQL技术内幕：InnoDB存储引擎(第二版) / 姜承尧
+- MySQL管理之道 / 贺春旸

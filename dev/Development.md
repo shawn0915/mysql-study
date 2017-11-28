@@ -15,8 +15,8 @@
 
 - 业务架构
 - 业务逻辑、关联关系
-- [数据类型 Data Types](model/DataTypes.md)
-- [索引约束](model/IndexConstraint.md)
+- [Data Types](model/DataTypes.md)
+- [IndexConstraint](model/IndexConstraint.md)
 
 ## SQL开发
 
@@ -24,9 +24,12 @@
 - 语法标准
   - ANSI SQL-89
   - ANSI SQL-92
-  - ANSI 2011
-  - ANSI 2016
-- 范式  
+  - ANSI SQL:1999
+  - ANSI SQL:2003
+  - ANSI SQL:2008
+  - ANSI SQL:2011
+  - ANSI SQL:2016
+- 范式
 - 设计规范
 - [审核 Audit](audit/Audit.md)
   - [audit log](../mgmt/Maintenance/Log/audit_log.md)
@@ -53,3 +56,4 @@
 - [condition-handling](https://dev.mysql.com/doc/refman/5.6/en/condition-handling.html)
 - [example database](https://dev.mysql.com/doc/index-other.html)
 - [test-db](https://launchpad.net/test-db/)
+- [](https://dev.mysql.com/doc/refman/5.7/en/compatibility.html)

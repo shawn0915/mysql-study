@@ -1,12 +1,14 @@
 # Data Types
 数据类型
 
-- Numeric
-- String
-- Binary
-- Temporal
-- Spatial
-- JSON
+## Content
+
+- [Numeric](#numeric)
+- [String](#string)
+- [Binary](#binary)
+- [Temporal](#temporal)
+- [Spatial](#spatial)
+- [JSON](#json)
 
 ## Numeric
 
@@ -15,7 +17,8 @@
 - Fixed-Point
 - BIT
 
-## Character(String)
+## String
+Character
 
 - Text
   - VARCHAR
@@ -38,7 +41,7 @@
 - TIMESTAMP
 - YEAR
 
-## Spatial Data Types
+## Spatial
 
 - Entity
 - Space
@@ -46,17 +49,19 @@
 
 > MyISAM supports both spatial and non-spatial indexes.
 
+## NULL
+
+The NULL value means "no data."
+
 ## JSON
 Support from MySQL 5.7.8
 
 - [sql_demo_json](../../sql_scripts/sql_dev/DataType_json.sql)
 
 
-## * NULL
-
-
 ## Reference
 
 - [refman-56-data-types](https://dev.mysql.com/doc/refman/5.6/en/data-types.html)
 - [refman-57-data-types](https://dev.mysql.com/doc/refman/5.7/en/data-types.html)
+- [NULL Values](https://dev.mysql.com/doc/refman/5.7/en/null-values.html)
 - [mysql-json](https://dev.mysql.com/doc/refman/5.7/en/json.html)

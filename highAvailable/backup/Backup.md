@@ -1,5 +1,4 @@
-# Backup and Recovery
-备份与恢复
+# Backup
 
 
 - Hot 热备份
@@ -9,7 +8,6 @@
   - MyISAM
   - ibbackup
   - Xtrabackup(Innodb)
-
 - Cold 冷备份
   - Disk
     - ```tar, cp, cpio, rsync, xcopy```
@@ -28,7 +26,6 @@
     - mysqldump
       - less then a few GBs
     - mysqlimport
-
 - Warm
   - middle-of-the-road backup type
   - Not being able to modify data during backups

@@ -1,9 +1,9 @@
 # Index Constraint
 
 
-- [索引类型](#indextype)
-- [索引级别](#indexlevel)
-- 索引优化 => 参见性能优化
+- [IndexType](#indextype)
+- [IndexLevel](#indexlevel)
+- [IndexOptimization](#indexoptimization)
 
 ## IndexType
 索引类型

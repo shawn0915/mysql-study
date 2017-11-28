@@ -26,6 +26,6 @@ sysbench --test=oltp
 run
 ```
 
-## REF
+## Reference
 
 - [akopytov/sysbench](https://github.com/akopytov/sysbench)

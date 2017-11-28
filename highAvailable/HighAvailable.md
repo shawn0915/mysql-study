@@ -1,21 +1,27 @@
 # High Available (HA)
 
+> Focus: [RPO/RTO](img/RTO_RPO.png)
 
 ## Content
 
 - [Backup](backup/Backup.md)
 - [Recovery](recovery/Recovery.md)
 - [Replication](replication/Replication.md)
-- High Available
-- Middleware
-- Reference
+- [Solutions](#solutions)
+- [Reference](#reference)
 
 
-## HA
+## Solutions
 
+- MySQL Replication
 - MySQL Cluster
-- MySQL Fabric
-- [MHA](MHA/Readme.md)
+- Oracle MySQL Cloud Service
+- Oracle Clusterware Agent for MySQL
+- [MySQL Fabric](solutions/Fabric.md)
+
+### Third-party Solutions
+
+- [MHA](solutions/MHA.md)
 - MMM
 - Percona-Cluster
 - 基于LVS/Keepalived/haproxy方案
@@ -25,12 +31,8 @@
 - 异地多中心
 
 
-## 关注点
-
-- RPO
-- RTO
-
 ## Reference
 
 - [MySQL HA/Scalability Guide](https://dev.mysql.com/doc/mysql-ha-scalability/en/)
 - [MySQL High Availability](http://mysqlhighavailability.com)
+- [ha-overview](https://dev.mysql.com/doc/mysql-ha-scalability/en/ha-overview.html)
