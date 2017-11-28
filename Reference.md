@@ -4,7 +4,7 @@
 ## official-website
 
 - [mysql](https://www.mysql.com/)
-- [refman](https://dev.mysql.com/doc/refman/5.6/en/)
+- [refman/5.6](https://dev.mysql.com/doc/refman/5.6/en/)
 - [Supported Platforms: MySQL Database](https://www.mysql.com/support/supportedplatforms/database.html)
 - [news](http://www.mysql.com/news-and-events/web-seminars/)
 - [events](http://www.mysql.com/news-and-events/events/)
@@ -13,7 +13,7 @@
 - [err-msg](https://dev.mysql.com/doc/refman/5.6/en/error-messages-server.html)
 - [glossary](https://dev.mysql.com/doc/refman/5.6/en/glossary.html)
 - [index-other](https://dev.mysql.com/doc/index-other.html)
-
+- [oracle/mysql](https://www.oracle.com/mysql/index.html)
 
 ## Social
 
@@ -51,7 +51,6 @@
 - [优酷土豆资深工程师：MySQL高可用之MaxScale与MHA(有彩蛋)](https://mp.weixin.qq.com/s/8dGRHp58QazUIK3t0AIsEA)
 - [MySQL Master High Available 理论篇(一)](http://mp.weixin.qq.com/s/4tRrTIkt31YhnZIUsND8yw)
 - [MySQL Master High Available 理论篇(二)](http://mp.weixin.qq.com/s/fFq0Zb6KhEA7zwOetOucuw)
-- []()
 
 
 ## Optimize
@@ -67,8 +66,6 @@
 - [单表60亿记录等大数据场景的MySQL优化和运维之道](http://mp.weixin.qq.com/s/Cet5WaLJKe9IC3PM1WFlhw)
 - [MySQL架构优化实战系列2：主从复制同步与查询性能调优](http://mp.weixin.qq.com/s/gjF7xGWjkumxA89YqahVdA)
 - [GitHub 的 MySQL 基础架构自动化测试](https://mp.weixin.qq.com/s/AYiChyg7AaFzMTeL1eQQuw)
-
-
 
 
 ## weixin
