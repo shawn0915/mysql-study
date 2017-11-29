@@ -160,10 +160,7 @@ REORGANIZE PARTITION 取决于要重组的分区的大小。
 其他存储引擎也可以使用分区；
 但是 MERGE、CSV 和 FEDERATED 存储引擎无法使用分区。
 
-## REF
+## Reference
 
 - [partitioning-limitations](https://dev.mysql.com/doc/refman/5.6/en/partitioning-limitations.html)
 - [partitioning-columns](https://dev.mysql.com/doc/refman/5.6/en/partitioning-columns.html)
-
-
-

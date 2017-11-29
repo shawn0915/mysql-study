@@ -1,5 +1,9 @@
 # SSL
 
+- Uses different encryption algorithms to secure data over a public network
+- Detects any data change, loss, or replay
+- Incorporates algorithms that provide identity verification using the X509 standard
+
 ## Staring the MySQL Server with SSL
 
 ```bash
@@ -29,13 +33,8 @@ SHOW STATUS LIKE 'ssl_cipher';
 ```
 
 
-
-
-## REF
+## Reference
 
 - [SSL Cert](https://dev.mysql.com/doc/refman/5.6/en/creating-ssl-files-using-openssl.html)
 - [windows-and-ssh](https://dev.mysql.com/doc/refman/5.6/en/windows-and-ssh.html)
 - [faqs-security](https://dev.mysql.com/doc/refman/5.6/en/faqs-security.html)
-
-
-
