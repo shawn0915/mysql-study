@@ -5,7 +5,7 @@ v10.2.10
 ## Contents
 
 - [Docker-MariaDB](https://github.com/shawn0915/docker-study/blob/master/docker/Docker-MariaDB.md#mariadb-docker)
-- [Engine-XtraDB](../mgmt/storageEngine/XtraDB.md)
+- [Engine-XtraDB](../mgmt/storageEngine/engines/XtraDB.md)
 
 ## MariaDB vs MySQL
 

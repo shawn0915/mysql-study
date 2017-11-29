@@ -7,7 +7,7 @@
 √ mysqldumpslow
 mysqlimport
 mysqlshow
-mysqlslap
+√ mysqlslap
 
 myisamchk
  */
@@ -38,3 +38,7 @@ mysqldump --single -transation Innodb
 
 -- mysqldumpslow
 mysqldumpslow mysql-slow.log
+
+-- mysqlslap
+mysqlslap --iterations=5000 --concurrency=50 --query=workload.sql
+--create=schema.sql --delimiter=";"

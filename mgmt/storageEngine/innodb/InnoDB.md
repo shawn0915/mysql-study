@@ -1,9 +1,5 @@
 # Innodb
 
-- [History](#history)
-- [Feature](#feature)
-- [Reference](#reference)
-
 
 ## History
 
@@ -37,21 +33,16 @@ WHERE yourkey > something AND yourkey <= somethingelse;
 
 ## Tablespace
 
-> InnoDB creates a further tablespace in the database directory—an.ibd 
-  file—for each InnoDB table.
+InnoDB creates a further tablespace in the database directory—an.ibd file—for each InnoDB table.
 
-## Innodb Buffer Pools
-
-- [Innodb Buffer Pool](innodb/Innodb_buffer_pool.md)
+## [Innodb Buffer Pool](Innodb_buffer_pool.md)
 
 
 ## Reduce Deadlocks
 
 
+## [Innodb Status](Innodb_status.md)
 
-## Innodb Status
-
-- [Innodb Status](innodb/Innodb_status.md)
 
 ## MVCC
 

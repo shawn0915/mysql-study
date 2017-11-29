@@ -1,18 +1,19 @@
-# MySQL STATUS
+/*
+MySQL STATUS
+ */
 
-> Examining Server Status
+-- Examining Server Status
 
-```mysql
-SHOW STATUS 
-```
-```bash
+
+SHOW STATUS;
+
+/*
 mysqladmin status
 mysqladmin extended-status
-```
+ */
 
-> Top Status Variables
+-- Top Status Variables
 
-```mysql
 SHOW STATUS LIKE 'Created_tmp_disk_tables';
 SHOW STATUS LIKE 'Handler_read_first';
 SHOW STATUS LIKE 'Innodb_buffer_pool_wait_free';
@@ -23,4 +24,3 @@ SHOW STATUS LIKE 'Slow_queries';
 SHOW STATUS LIKE 'Sort_merge_passes';
 SHOW STATUS LIKE 'Threads_connected';
 SHOW STATUS LIKE 'Uptime';
-```

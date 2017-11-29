@@ -1,55 +1,33 @@
 # Monitor
 监控
 
-## Monitor Level
+## Contents
 
 - Server
-- Instance
+  - CPU
+  - MEMORY
+    - SWAP
+  - DISK
+    - File System
+    - IOPS
+    - SSD/HDD
+    - RAID
+  - NETWORK
+    - IN
+    - OUT
+  - OS
+- [Instance](../../scripts/sql_mgmt/sql_mysql_status.sql)
+  - 内存/缓存 memory/buffer
+  - 线程 thread
+  - 连接数
+  - 访问量
+  - 运行状态 status
+  - 健康度 healthy
 - Plugin
 - Log
 
-## 主机性能
 
-### 监控项
-
-- CPU
-- MEMORY
-  - SWAP
-- DISK
-  - IOPS
-  - SSD/HDD
-  - 文件系统
-- NETWORK
-  - IN
-  - OUT
-
-### 监控指标
-
-
-## 数据库性能
-
-- 内存
-- 线程
-- 连接数
-- 访问量
-- 运行状态
-  - [mysql status](mysqlStatus.md)
-
-## benchmarking 基准
-
-- mysqlslap
-
-```bash
-mysqlslap --iterations=5000 --concurrency=50 --query=workload.sql
---create=schema.sql --delimiter=";"
-```
-- sql-bench
-
-## Performance Schema
-
-[Performance Schema](../../scripts/sql_opt/sql_performance_schema_5_6.sql)
-
-## 报警
+## Alerting
 
 - 报警阈值
 - 报警途径
@@ -57,13 +35,6 @@ mysqlslap --iterations=5000 --concurrency=50 --query=workload.sql
   - SMS
   - Weixin
   
-## 报表
+## Report
 
-- 实现方式
- - MySQL+Python
-
- 
-
-## REF
-
-- [performance-schema](https://dev.mysql.com/doc/refman/5.6/en/performance-schema-quick-start.html)
+- 实现方式: MySQL+Python

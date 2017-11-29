@@ -38,4 +38,5 @@ Performance Tuning
 
 - [optimization/5.6](https://dev.mysql.com/doc/refman/5.6/en/optimization.html)
 - [Locking Operations](https://dev.mysql.com/doc/refman/5.6/en/locking-issues.html)
+- [performance-schema-quick-start](https://dev.mysql.com/doc/refman/5.6/en/performance-schema-quick-start.html)
 - [performance-schema-table-descriptions](https://dev.mysql.com/doc/refman/5.6/en/performance-schema-table-descriptions.html)

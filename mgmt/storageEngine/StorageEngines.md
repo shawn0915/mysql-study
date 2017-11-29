@@ -1,31 +1,27 @@
 # Storage Engines
 存储引擎
 
+- [SQL-DEMO-Engines](../../scripts/sql_mgmt/sql_engines.sql)
 
 ## Engines
 
-- [MyISM](MyISM.md)
-  - Aria
-- ~~Falcon~~
-- [InnoDB](InnoDB.md)
-  - [Percona XtraDB](XtraDB.md)
-- [MEMORY](MEMORY.md)
-- [ARCHIVE](ARCHIVE.md)
+- [MyISM](engines/MyISM.md)
+- [Aria](https://en.wikipedia.org/wiki/Aria_(storage_engine))
+- [Falcon](https://en.wikipedia.org/wiki/Falcon_(storage_engine))
+- [**InnoDB**](innodb/InnoDB.md)
+- [Percona XtraDB](engines/XtraDB.md)
+- [MEMORY](engines/MEMORY.md)
+- [ARCHIVE](engines/ARCHIVE.md)
 - FEDERATED
 - EXAMPLE
-- [BLACKHOLE](BLACKHOLE.md)
+- [BLACKHOLE](engines/BLACKHOLE.md)
 - MERGE
 - CSV
 - PERFORMANCE_SCHEMA
 - [NDBCLUSTER](https://dev.mysql.com/doc/refman/5.6/en/mysql-cluster.html)
-- [Percona TokuDB](TokuDB.md)
+- [Percona TokuDB](engines/TokuDB.md)
 
-## SQL
-
-- [sql_engines](../../scripts/sql_mgmt/sql_engines.sql)
 
 ## Reference
 
 - [storage-engines](https://dev.mysql.com/doc/refman/5.6/en/storage-engines.html)
-- [memory-storage-engine](https://dev.mysql.com/doc/refman/5.6/en/memory-storage-engine.html)
-- [Falcon](https://en.wikipedia.org/wiki/Falcon_(storage_engine))
