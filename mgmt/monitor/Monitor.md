@@ -47,7 +47,7 @@ mysqlslap --iterations=5000 --concurrency=50 --query=workload.sql
 
 ## Performance Schema
 
-[Performance Schema](../optimize/PerformanceSchema.md)
+[Performance Schema](../../scripts/sql_opt/sql_performance_schema_5_6.sql)
 
 ## 报警
 

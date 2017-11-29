@@ -1,13 +1,12 @@
 # Management
 
-
 - [x] [Architecture](#architecture)
 - [x] Deploy
   - [x] [Installation](installation/Installation.md)
   - [x] [Configuration](configuration/Configuration.md)
   - [x] [Maintenance](maintenance/Maintenance.md)
 - [x] [Testing](testing/Testing.md)
-- [ ] [Optimize](optimize/Optimize.md)
+- [x] [Optimize](optimize/Optimize.md)
 - [ ] [Monitor](monitor/Monitor.md)
 - [ ] [Storage Engine](storageEngine/StorageEngines.md)
 - [ ] [Partitioning](partitioning/Partitioning.md)

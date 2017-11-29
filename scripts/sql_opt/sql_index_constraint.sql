@@ -1,7 +1,11 @@
-# IndexConstraint
+/*
+Index Constraint
+ */
 
-- 查看索引
-```mysql
+/*
+查看索引
+ */
+
 USE sakila;
 (shawn@localhost) [sakila] 13:58:39> SHOW INDEX FROM city\G
 *************************** 1. row ***************************
@@ -34,11 +38,8 @@ Index_comment:
 Index_comment: 
 2 rows in set (0.00 sec)
 
-```
 
 
-
-```mysql
 USE information_schema;
 (shawn@localhost) [information_schema] 17:22:29> show status like "Handler_read%";
 +-----------------------+-------+
@@ -54,9 +55,9 @@ USE information_schema;
 +-----------------------+-------+
 7 rows in set (0.00 sec)
 
-```
 
-- 表空间回收
-```mysql
+/*
+表空间回收
+ */
+
 alter table tbl_name engine=innodb;
-```

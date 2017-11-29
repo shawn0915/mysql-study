@@ -1,83 +1,41 @@
 # Optimizing MySQL Performance
+Performance Tuning
 
-> performance tuning
+- Target
+- What
+  - Server
+    - CPU
+    - [Disk](server/Disk.md)
+    - Memory
+      - [SWAP](server/SWAP.md)
+    - Network
+    - OS
+  - Instance
+    - [Performance Schema 5.6](../../scripts/sql_opt/sql_performance_schema_5_6.sql)
+    - [ ] Performance Schema 5.7
+  - [Table](../../scripts/sql_opt/sql_analyse.sql)
+    - Innodb Table
+    - Data Structure
+    - [Index Constraint](../../scripts/sql_opt/sql_index_constraint.sql)
+  - SQL
+    - query execution plan
+    - locking
+    - hint
+- How
+  - Location
+    - STATUS `SHOW STATUS;`
+    - [EXPLAIN](../../scripts/sql_opt/sql_explain.sql)
+    - [PROFILE](../../scripts/sql_opt/sql_profile.sql)
+    - [TRACE](../../scripts/sql_opt/sql_trace.sql)
+  - Analyse
+  - Optimize
+- Tuning
 
-## Target
 
 
-## What
 
-- innodb table
-- data structure
-```mysql
--- 优化表的数据类型
-use sakila;
-select * from country procedure analyse();
-```
-- index constraint
-- query execution plan
-```mysql
-USE sakila;
--- PROCEDURE ANALYSE(100, 256)
-SELECT city_id, city, country_id FROM City PROCEDURE ANALYSE(250,1024);
-```
-- locking
+## Reference
 
-## How
-定位    分析    优化
-
-### 定位
-
-- STATUS
-```mysql
-SHOW STATUS;
-```
-- EXPLAIN
-```mysql
--- EXPLAIN
-EXPLAIN EXTENDED
-SHOW WARNINGS
-EXPLAIN PARTITIONS
-```
-```mysql
-EXPLAIN FORMAT = JSON
-SELECT city, country_id FROM city;
-```
-```json
-{
-  "query_block": {
-    "select_id": 1,
-    "table": {
-      "table_name": "city",
-      "access_type": "ALL",
-      "rows": 600,
-      "filtered": 100
-    }
-  }
-}
-```
-
-- PROFILE
-```mysql
--- SHOW PROFILE
-SELECT @@have_profiling;
-select @@profiling;
-show profiles;
--- show profile [cpu | all] for query 4;
-```
-
-- TRACE
-```mysql
--- 分析优化器
-SELECT * FROM INFORMATION_SCHEMA.OPTIMIZER_TRACE ;
-```
-
-## Tuning
-
-- [Server](Server.md)
-- buffer pool
-
-## REF
-
-- [optimization](https://dev.mysql.com/doc/refman/5.6/en/optimization.html)
+- [optimization/5.6](https://dev.mysql.com/doc/refman/5.6/en/optimization.html)
 - [Locking Operations](https://dev.mysql.com/doc/refman/5.6/en/locking-issues.html)
+- [performance-schema-table-descriptions](https://dev.mysql.com/doc/refman/5.6/en/performance-schema-table-descriptions.html)

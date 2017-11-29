@@ -2,14 +2,13 @@
 
 > Focus: [RPO/RTO](img/RTO_RPO.png)
 
-## Content
+## Contents
 
 - [Backup](backup/Backup.md)
 - [Recovery](recovery/Recovery.md)
 - [Replication](replication/Replication.md)
 - [Solutions](#solutions)
 - [Reference](#reference)
-
 
 ## Solutions
 
