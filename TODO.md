@@ -16,3 +16,7 @@ TODO
 - [ ] 2017-11-28.pt-tool-kit review
 - [x] 2017-11-28.[mgmt](mgmt/Management.md)
 - [x] 2017-11-29.[Reference](Reference.md)
+- [ ] 2017-12-7. 故障排错
+- [ ] 2017-12-7. MySQL分片技术
+- [ ] 2017-12-7. 数据路由、分布式缓存技术
+

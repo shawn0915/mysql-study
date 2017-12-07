@@ -15,6 +15,7 @@
 - [glossary](https://dev.mysql.com/doc/refman/5.6/en/glossary.html)
 - [index-other](https://dev.mysql.com/doc/index-other.html)
 - [mysql/community](https://dev.mysql.com/community/)
+- [mysql/mysql-sys](https://github.com/mysql/mysql-sys)
 
 ## Social
 
