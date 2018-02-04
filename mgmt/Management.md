@@ -2,7 +2,6 @@
 
 - [Architecture](#architecture)
 - Deploy
-  - [Installation](installation/Installation.md)
   - [Configuration](configuration/Configuration.md)
   - [Maintenance](maintenance/Maintenance.md)
 - [Testing](testing/Testing.md)
@@ -14,3 +13,7 @@
 - [Security](security/Security.md)
 - [Change](change/Change.md)
 - [Globalization](globalization/Globalization.md)
+
+## Blog
+
+- [a2-how-to-install-mysql-on-centos](https://github.com/shawn0915/mysqloffice/blob/master/mysql/a2-how-to-install-mysql-on-centos.md)
