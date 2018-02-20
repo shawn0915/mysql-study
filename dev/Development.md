@@ -38,7 +38,7 @@
 事务和锁
 
 - [Transactions](transactions/Transaction.md)
-- [Locking](locking/Locking.md)
+- [Locking](https://shawn0915.github.io/mysql/2018/02/20/mysql-lock.html)
 
 ## Programming Inside MySQL
 
